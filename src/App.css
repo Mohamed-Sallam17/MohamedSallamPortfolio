@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+/* @theme{
+    --variant-dark: ((.dark) &);
+} */
 
 /* Header Styles */
 .navbar-links ul li{
