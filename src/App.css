@@ -5,3 +5,6 @@
 .navbar-links ul li{
     color: var(--heading-color)
 }
+.toggle-mode svg{
+    cursor: pointer;
+}
