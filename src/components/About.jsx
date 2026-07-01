@@ -33,7 +33,18 @@ function About() {
                 <span className="uppercase">my skills</span>
                 <h4> Technologies | <span className="text-(--second-color)" > Work With </span> </h4>
                 <div className="skills-icons">
-                    <Swiper className="mySwiper" slidesPerView={7} loop={true} modules={[Autoplay]} autoplay={{delay: 3000, disableOnInteraction: false}}>
+                    <Swiper className="mySwiper" 
+                        slidesPerView={7}
+                        loop={true}
+                        modules={[Autoplay]}
+                        allowTouchMove={false}
+                        speed={3000}
+                        freeMode={true}
+                        autoplay={{
+                            delay: 0,
+                            disableOnInteraction: false
+                        }}
+                    >
                         <SwiperSlide>
                             <div>
                                 <img src={htmlIcon} alt="HTML icon" width="50" height="50" />
