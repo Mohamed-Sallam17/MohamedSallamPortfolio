@@ -23,7 +23,7 @@ function Header() {
         <div className="flex items-center justify-between">
           <div className="navbar-logo">
             <Link to="/">
-              <img src={logoImg} alt="Logo" width="50" height="50" />
+              <img src={logoImg} alt="Logo" width="120" height="100" />
             </Link>
           </div>
           <div className="navbar-links hidden lg:flex">

@@ -73,12 +73,16 @@ function About() {
                         I love turning ideas into reality through code and modern design principle.
                     </span>
                 </div>
+                <div className="dot-shape w-full text-center flex justify-center items-center my-8 relative">
+                    <span className='line w-full h-px inline-block'></span>
+                    <span className='dot inline-block w-[20px] h-[20px] rounded-[50%] bg-[var(--second-color)]'></span>
+                </div>
                 <div className="skills text-center w-full mt-8">
                     <span className="uppercase text-sm lg:text-lg text-(--second-color) mb-4">my skills</span>
                     <h4 className='text-white text-xl md:text-2xl lg:text-4xl mb-8'> Technologies | <span className="text-(--second-color)" > Work With </span></h4>
                     <div className="skills-icons">
                         <div className="marquee overflow-x-hidden relative">
-                            <div className="marquee-track flex w-max gap-4 md:gap-15">
+                            <div className="marquee-track flex w-max gap-4 md:gap-8 lg:gap-15">
                                 {
                                 [...skillsIcons,...skillsIcons,...skillsIcons,...skillsIcons,...skillsIcons,...skillsIcons].map((icon,index)=>(
                                     <div className="marquee-item p-2 rounded-xl border-1 border-[#052c50] border-solid w-[50px] h-[50px] md:w-[80px] md:h-[80px] flex justify-center items-center" key={index}>

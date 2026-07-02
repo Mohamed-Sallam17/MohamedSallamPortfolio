@@ -39,8 +39,16 @@
     left: 0;
 }
 
-
-
+/* Dot Line Style */
+.dot-shape .line{
+    background: linear-gradient(45deg, transparent, transparent, #007aff69, transparent, transparent);
+}
+.dot{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
 
 
 
