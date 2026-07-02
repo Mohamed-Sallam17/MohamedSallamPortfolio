@@ -1,91 +1,94 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import { Autoplay } from 'swiper/modules';
 import htmlIcon from '../assets/skills-icons/html-icon.png'
 import cssIcon from '../assets/skills-icons/css-icon.png'
 import jsIcon from '../assets/skills-icons/js-icon.png'
 import reactIcon from '../assets/skills-icons/react-icon.png'
+import nextIcon from '../assets/skills-icons/next-icon.png'
 import tsIcon from '../assets/skills-icons/ts-icon.png'
 import tailwindIcon from '../assets/skills-icons/tailwind-icon.png'
 import wordpressIcon from '../assets/skills-icons/wordpress-icon.png'
 import woocommerceIcon from '../assets/skills-icons/woocommerce-icon.png'
+import gitIcon from '../assets/skills-icons/git-icon.png'
 
 
+const skillsIcons = [
+    {
+        src: htmlIcon,
+        alt : "HTML icon"
+    },
+    {
+        src: cssIcon,
+        alt : "CSS icon"
+    },
+    {
+        src: jsIcon,
+        alt : "JS icon"
+    },
+    {
+        src: reactIcon,
+        alt : "React icon"
+    },
+    {
+        src: nextIcon,
+        alt : "Next icon"
+    },
+    {
+        src: tsIcon,
+        alt : "TS icon"
+    },
+    {
+        src: tailwindIcon,
+        alt : "Tailwind icon"
+    },
+    {
+        src: gitIcon,
+        alt : "Git icon"
+    },
+    {
+        src: wordpressIcon,
+        alt : "Wordpress icon"
+    },
+    {
+        src: woocommerceIcon,
+        alt : "Woocommerce icon"
+    }
+]
 function About() {
+
   return (
     <section className="about" id="about-me">
         <div className="container mx-auto p-4">
-            <div className="about-content text-white">
-                <span className="uppercase">about me</span>
-                <h4>I build digital experiences that are 
-                    <span className="text-(--second-color)"> fast, functional </span> 
-                     and  
-                     <span className="text-(--second-color)"> beautiful </span>
-                </h4>
-                <span>
-                    I'm a Frontend & Wordpress Developer with a passion for creating clean,
-                    high-performing websites and seamless user experiences.I specialize in
-                    React, Tailwind CSS, JavaScript, and custom Wordpress development.
-                    I love turning ideas into reality through code and modern design principle.
-                </span>
-            </div>
-            <div className="skills">
-                <span className="uppercase">my skills</span>
-                <h4> Technologies | <span className="text-(--second-color)" > Work With </span> </h4>
-                <div className="skills-icons">
-                    <Swiper className="mySwiper" 
-                        slidesPerView={7}
-                        loop={true}
-                        modules={[Autoplay]}
-                        allowTouchMove={false}
-                        speed={3000}
-                        freeMode={true}
-                        autoplay={{
-                            delay: 0,
-                            disableOnInteraction: false
-                        }}
-                    >
-                        <SwiperSlide>
-                            <div>
-                                <img src={htmlIcon} alt="HTML icon" width="50" height="50" />
+            <div className='flex justify-center items-center flex-col'>
+                <div className="about-content w-full mx-auto text-white text-center">
+                    <span className="uppercase text-sm lg:text-lg text-(--second-color) mb-4">about me</span>
+                    <h4 className='text-xl md:text-3xl lg:text-5xl mb-8'>I build digital experiences <br /> that are 
+                        <span className="text-(--second-color)"> fast, functional </span> 
+                        and  
+                        <span className="text-(--second-color)"> beautiful </span>
+                    </h4>
+                    <span className='text-[#ffffff9e] md:w-[70%] lg:w-[60%] xl:w-[40%] mx-auto inline-block text-sm'>
+                        I'm a Frontend & Wordpress Developer with a passion for creating clean,
+                        high-performing websites and seamless user experiences.I specialize in
+                        React, Tailwind CSS, JavaScript, and custom Wordpress development.
+                        I love turning ideas into reality through code and modern design principle.
+                    </span>
+                </div>
+                <div className="skills text-center w-full mt-8">
+                    <span className="uppercase text-sm lg:text-lg text-(--second-color) mb-4">my skills</span>
+                    <h4 className='text-white text-xl md:text-2xl lg:text-4xl mb-8'> Technologies | <span className="text-(--second-color)" > Work With </span></h4>
+                    <div className="skills-icons">
+                        <div className="marquee overflow-x-hidden relative">
+                            <div className="marquee-track flex w-max gap-4 md:gap-15">
+                                {
+                                [...skillsIcons,...skillsIcons,...skillsIcons,...skillsIcons,...skillsIcons,...skillsIcons].map((icon,index)=>(
+                                    <div className="marquee-item p-2 rounded-xl border-1 border-[#052c50] border-solid w-[50px] h-[50px] md:w-[80px] md:h-[80px] flex justify-center items-center" key={index}>
+                                        <img src={icon.src} alt={icon.alt} />
+                                    </div>
+                                ))
+                                }
                             </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div>
-                                <img src={cssIcon} alt="HTML icon" width="50" height="50" />
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div>
-                                <img src={jsIcon} alt="HTML icon" width="50" height="50" />
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div>
-                                <img src={reactIcon} alt="HTML icon" width="50" height="50" />
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div>
-                                <img src={tsIcon} alt="HTML icon" width="50" height="50" />
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div>
-                                <img src={tailwindIcon} alt="HTML icon" width="50" height="50" />
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div>
-                                <img src={wordpressIcon} alt="HTML icon" width="50" height="50" />
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div>
-                                <img src={woocommerceIcon} alt="HTML icon" width="50" height="50" />
-                            </div>
-                        </SwiperSlide>
-                    </Swiper>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

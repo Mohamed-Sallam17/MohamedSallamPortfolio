@@ -11,3 +11,42 @@
 .toggle-mode svg{
     cursor: pointer;
 }
+
+
+/* Marquee */
+.marquee .marquee-track{
+    animation: scroll 40s linear infinite;
+}
+.marquee .marquee-track:hover{
+    animation-play-state: paused;
+}
+.marquee::before,
+.marquee::after{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 100%;
+    z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.marquee::before{
+    background: linear-gradient(-90deg, #041c32, #041c32,transparent);
+    right: 0;
+}
+.marquee::after{
+    background: linear-gradient(90deg, #041c32, #041c32,transparent);
+    left: 0;
+}
+
+
+
+
+
+
+
+/* Animations */
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
