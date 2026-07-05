@@ -57,9 +57,9 @@ function About() {
 
   return (
     <section className="about" id="about-me">
-        <div className="container mx-auto p-4">
+        <div className="container mt-8">
             <div className='flex justify-center items-center flex-col'>
-                <div className="about-content w-full mx-auto text-white text-center">
+                <div className="about-content w-full mx-auto text-center">
                     <span className="uppercase text-sm lg:text-lg text-(--second-color) mb-4">about me</span>
                     <h4 className='text-xl md:text-3xl lg:text-5xl mb-8'>I build digital experiences <br /> that are 
                         <span className="text-(--second-color)"> fast, functional </span> 

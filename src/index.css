@@ -13,5 +13,10 @@ body{
   box-sizing: border-box;
   font-family: "Poetsen One", sans-serif;
   background-color: var(--bg-color);
+  color: var(--heading-color);
 }
 
+.container{
+  margin-inline: auto;
+  padding: 1rem;
+}
