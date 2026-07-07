@@ -66,7 +66,7 @@ function About() {
                         and  
                         <span className="text-(--second-color)"> beautiful </span>
                     </h4>
-                    <span className='text-[#ffffff9e] md:w-[70%] lg:w-[60%] xl:w-[40%] mx-auto inline-block text-sm'>
+                    <span className='text-[var(--desc-color)] md:w-[70%] lg:w-[60%] xl:w-[40%] mx-auto inline-block text-sm'>
                         I'm a Frontend & Wordpress Developer with a passion for creating clean,
                         high-performing websites and seamless user experiences.I specialize in
                         React, Tailwind CSS, JavaScript, and custom Wordpress development.

@@ -14,20 +14,20 @@ function Projects() {
             <span className="text-(--second-color)"> Built</span>
           </h4>
         </div>
-        <div className="project-container">
+        <div className="project-container grid grid-cols-1 md:grid-cols-3 space-x-4">
           {projectData.map((project) => (
-            <div className="project-card " key={project.id}>
+            <div className="project-card p-4 rounded-3xl bg-[#03182b]" key={project.id}>
               <div className="project-image">
                 <img src={project.imgSrc} alt={project.imgAlt} />
               </div>
-              <div className="project-content">
-                <h4>{project.title}</h4>
-                <p>{project.description}</p>
-                <div className="tech-skill">
-                  <div className="tech-stack">
-                    {project.skills.map((e, index) => (
-                      <span className="tech-badge" key={index}>
-                        {e}
+              <div className="project-content space-y-3">
+                <h4 className='text-2xl md:text-3xl'>{project.title}</h4>
+                <p className='text-[var(--desc-color)]'>{project.description}</p>
+                <div className="tech-skill flex justify-between">
+                  <div className="tech-stack space-x-2">
+                    {project.skills.map((skill, index) => (
+                      <span className="tech-badge p-2 bg-[#06466380] rounded-3xl" key={index}>
+                        {skill}
                       </span>
                     ))}
                   </div>

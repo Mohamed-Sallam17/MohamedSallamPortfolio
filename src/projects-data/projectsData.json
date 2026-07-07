@@ -9,16 +9,16 @@
 },
 {
     "id": 2,
-    "imgSrc": "",
-    "imgAlt": "",
+    "imgSrc": "../assets/product-img.png",
+    "imgAlt": "Ecommerce Project",
     "title": "project 2",
     "description": "description 2",
     "skills":["react","tailwind","GSap"]
 },
 {
     "id": 3,
-    "imgSrc": "",
-    "imgAlt": "",
+    "imgSrc": "../assets/product-img.png",
+    "imgAlt": "Ecommerce Project",
     "title": "project 3",
     "description": "description 3",
     "skills":["react","tailwind","GSap"]
