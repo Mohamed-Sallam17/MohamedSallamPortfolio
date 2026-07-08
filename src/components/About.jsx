@@ -77,7 +77,7 @@ function About() {
                     <span className='line w-full h-px inline-block'></span>
                     <span className='dot inline-block w-[20px] h-[20px] rounded-[50%] bg-[var(--second-color)]'></span>
                 </div>
-                <div className="skills text-center w-full mt-8">
+                <div className="skills text-center w-full mt-8" id='skills'>
                     <span className="uppercase text-sm lg:text-lg text-(--second-color) mb-4">my skills</span>
                     <h4 className='text-white text-xl md:text-2xl lg:text-4xl mb-8'> Technologies | <span className="text-(--second-color)" > Work With </span></h4>
                     <div className="skills-icons">

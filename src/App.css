@@ -60,6 +60,11 @@
     transform: translate(-50%,-50%);
 }
 
+/* Contacts */
+footer .contacts-menu li{
+    box-shadow: 0 0 2px #ffffff;
+}
+
 
 
 

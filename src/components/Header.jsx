@@ -29,16 +29,16 @@ function Header() {
           <div className="navbar-links hidden lg:flex">
             <ul className="flex space-x-4">
               <li>
-                <Link to="/">About</Link>
+                <a href="/">About</a>
               </li>
               <li>
-                <Link to="/">Skills</Link>
+                <a href="#skills">Skills</a>
               </li>
               <li>
-                <Link to="/">Projects</Link>
+                <Link href="/">Projects</Link>
               </li>
               <li>
-                <Link to="/">Contact</Link>
+                <Link href="/">Contact</Link>
               </li>
             </ul>
           </div>
