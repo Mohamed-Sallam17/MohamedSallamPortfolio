@@ -6,11 +6,12 @@ import MouseGlow from "./MouseGlow"
 function Layout() {
   return (
     <>
-    <MouseGlow/>
+      <MouseGlow/>
       <Header/>
       <Outlet/>
       <Footer/>
     </>
+
   )
 }
 
