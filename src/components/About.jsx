@@ -56,7 +56,7 @@ const skillsIcons = [
 function About() {
 
   return (
-    <section className="about" id="about-me">
+    <section className="about" id="about">
         <div className="container mt-8">
             <div className='flex justify-center items-center flex-col'>
                 <div className="about-content w-full mx-auto text-center">

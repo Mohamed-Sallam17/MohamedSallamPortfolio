@@ -61,7 +61,8 @@
 }
 
 /* Contacts */
-footer .contacts-menu li{
+footer .contacts-menu li,
+footer .profiles a{
     box-shadow: 0 0 2px #ffffff;
 }
 

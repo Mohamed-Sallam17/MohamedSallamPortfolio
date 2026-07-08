@@ -1,9 +1,10 @@
-import { FaLocationDot } from "react-icons/fa6"
+import { FaLinkedin, FaPhoneAlt } from "react-icons/fa"
+import { FaGithub, FaLocationDot } from "react-icons/fa6"
 import { IoLogoWhatsapp, IoMdMail } from "react-icons/io"
 
 function Footer() {
   return (
-    <footer className="mt-8">
+    <footer className="mt-8" id="contact">
       <div className="container">
         <div className="contact-me w-full mx-auto text-center">
           <span className="uppercase text-sm lg:text-lg text-(--second-color) mb-4"> get in touch</span>
@@ -25,8 +26,8 @@ function Footer() {
               </a>
             </li>
             <li className="w-max bg-[#06466380] p-4 rounded-2xl">
-              <a href="https://wa.me/+201006830249" className="flex items-center justify-center gap-2"> 
-                <IoLogoWhatsapp/>
+              <a href="tel:+201006830249" className="flex items-center justify-center gap-2"> 
+                <FaPhoneAlt />
                 <span>+20 100 683 0249</span>
               </a>
             </li>
@@ -38,9 +39,18 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div className="profiles">
-          <a href="">
-            <i></i>
+        <div className="profiles flex items-center justify-center flex-wrap gap-4 mt-8">
+          <a href="https://github.com/Mohamed-Sallam17" className="w-max bg-[#06466380] p-4 rounded-2xl">
+            <FaGithub className="text-2xl"/>
+          </a>
+          <a href="https://wa.me/+201006830249" className="w-max bg-[#06466380] p-4 rounded-2xl">
+            <IoLogoWhatsapp className="text-2xl"/>
+          </a>
+          <a href="https://www.linkedin.com/in/mohamed-sallam-46b3b6237?utm_source=share_via&utm_content=profile&utm_medium=member_ios" className="w-max bg-[#06466380] p-4 rounded-2xl">
+            <FaLinkedin className="text-2xl"/>
+          </a>
+          <a href="" className="w-max bg-[#06466380] p-4 rounded-2xl">
+            <FaGithub className="text-2xl"/>
           </a>
         </div>
       </div>
