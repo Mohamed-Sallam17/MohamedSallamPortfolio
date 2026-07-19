@@ -56,9 +56,9 @@ const skillsIcons = [
 function About() {
 
   return (
-    <section className="about" id="about">
+    <section className="about" id="about" data-aos="fade-up">
         <div className="container mt-8">
-            <div className='flex justify-center items-center flex-col'>
+            <div className='flex justify-center items-center flex-col' data-aos="fade-up">
                 <div className="about-content w-full mx-auto text-center">
                     <span className="uppercase text-sm lg:text-lg text-(--second-color) mb-4">about me</span>
                     <h4 className='text-xl md:text-3xl lg:text-5xl mb-8'>I build digital experiences <br /> that are 
@@ -77,7 +77,7 @@ function About() {
                     <span className='line w-full h-px inline-block'></span>
                     <span className='dot inline-block w-[20px] h-[20px] rounded-[50%] bg-[var(--second-color)]'></span>
                 </div>
-                <div className="skills text-center w-full mt-8" id='skills'>
+                <div className="skills text-center w-full mt-8" id='skills' data-aos="fade-up">
                     <span className="uppercase text-sm lg:text-lg text-(--second-color) mb-4">my skills</span>
                     <h4 className='text-white text-xl md:text-2xl lg:text-4xl mb-8'> Technologies | <span className="text-(--second-color)" > Work With </span></h4>
                     <div className="skills-icons">

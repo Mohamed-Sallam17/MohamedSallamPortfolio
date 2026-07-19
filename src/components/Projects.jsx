@@ -3,7 +3,7 @@ import projectData from '../projects-data/projectsData.json'
 
 function Projects() {
   return (
-    <section className="projects mt-8" id="projects">
+    <section className="projects mt-8" id="projects" data-aos="fade-up">
       <div className="container">
         <div className="about-content w-full mx-auto text-center">
           <span className="uppercase text-sm lg:text-lg text-(--second-color) mb-4">

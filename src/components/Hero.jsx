@@ -21,7 +21,7 @@
 
 function Hero() {
   return (
-    <section className="hero-section h-dvh relative">
+    <section className="hero-section h-dvh relative" data-aos="zoom-in">
       {/* <div className="canvas-container">
         <Canvas camera={{ position: [0, 0, 5], fov: 75 }}>
           <ambientLight intensity={0.5} />

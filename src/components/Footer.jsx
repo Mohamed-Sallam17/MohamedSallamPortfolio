@@ -4,7 +4,7 @@ import { IoLogoWhatsapp, IoMdMail } from "react-icons/io"
 
 function Footer() {
   return (
-    <footer className="mt-8" id="contact">
+    <footer className="mt-8" id="contact" data-aos="fade-up">
       <div className="container">
         <div className="contact-me w-full mx-auto text-center">
           <span className="uppercase text-sm lg:text-lg text-(--second-color) mb-4"> get in touch</span>
