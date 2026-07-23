@@ -1,50 +1,72 @@
 [
 {
-    "id": 1,
-    "imgSrc": "../assets/product-img.png",
+    "id": "proj-01",
+    "title": "E-Commerce Analytics Dashboard",
+    "category": "react",
+    "image": "../assets/product-img.png",
     "imgAlt": "Ecommerce Project",
-    "title": "project 2",
     "description": "description 1",
-    "skills":["react","tailwind","GSap"]
-},
-{
-    "id": 2,
-    "imgSrc": "../assets/product-img.png",
-    "imgAlt": "Ecommerce Project",
-    "title": "project 2",
-    "description": "description 2",
-    "skills":["react","tailwind","GSap"]
-},
-{
-    "id": 3,
-    "imgSrc": "../assets/product-img.png",
-    "imgAlt": "Ecommerce Project",
-    "title": "project 3",
-    "description": "description 3",
-    "skills":["react","tailwind","GSap"]
+    "tags":["react","tailwind","GSap"],
+    "links":{
+        "live": "https://store-fashion.com",
+        "github":"https://github.com/username/headless-store"
+    },
+    "featured": true
 },
 {
     "id": 1,
-    "imgSrc": "../assets/product-img.png",
-    "imgAlt": "Ecommerce Project",
     "title": "project 2",
+    "category": "react",
+    "image": "../assets/product-img.png",
+    "imgAlt": "Ecommerce Project",
     "description": "description 1",
-    "skills":["react","tailwind","GSap"]
+    "tags":["react","tailwind","GSap"],
+    "links":{
+        "live": "https://store-fashion.com",
+        "github":"https://github.com/username/headless-store"
+    },
+    "featured": true
 },
 {
-    "id": 2,
-    "imgSrc": "../assets/product-img.png",
-    "imgAlt": "Ecommerce Project",
+    "id": 1,
     "title": "project 2",
-    "description": "description 2",
-    "skills":["react","tailwind","GSap"]
+    "category": "react",
+    "image": "../assets/product-img.png",
+    "imgAlt": "Ecommerce Project",
+    "description": "description 1",
+    "tags":["react","tailwind","GSap"],
+    "links":{
+        "live": "https://store-fashion.com",
+        "github":"https://github.com/username/headless-store"
+    },
+    "featured": true
 },
 {
-    "id": 3,
-    "imgSrc": "../assets/product-img.png",
+    "id": 1,
+    "title": "project 2",
+    "category": "react",
+    "description": "description 1",
+    "image": "../assets/product-img.png",
     "imgAlt": "Ecommerce Project",
-    "title": "project 3",
-    "description": "description 3",
-    "skills":["react","tailwind","GSap"]
+    "tags":["react","tailwind","GSap"],
+    "links":{
+        "live": "https://store-fashion.com",
+        "github":"https://github.com/username/headless-store"
+    },
+    "featured": true
+},
+{
+    "id": 1,
+    "title": "project 2",
+    "category": "react",
+    "image": "../assets/product-img.png",
+    "imgAlt": "Ecommerce Project",
+    "description": "description 1",
+    "tags":["react","tailwind","GSap"],
+    "links":{
+        "live": "https://store-fashion.com",
+        "github":"https://github.com/username/headless-store"
+    },
+    "featured": true
 }
 ]
