@@ -1,16 +1,18 @@
 import { Outlet } from "react-router-dom"
 import Footer from "./Footer"
 import Header from "./Header"
-import MouseGlow from "./MouseGlow"
+// import MouseGlow from "./MouseGlow"
 
 function Layout() {
   return (
-    <>
-      <MouseGlow/>
+    <div className="flex flex-col min-h-screen">
+      {/* <MouseGlow/> */}
       <Header/>
-      <Outlet/>
+      <main className="flex-grow">
+        <Outlet/>
+      </main>
       <Footer/>
-    </>
+    </div>
 
   )
 }

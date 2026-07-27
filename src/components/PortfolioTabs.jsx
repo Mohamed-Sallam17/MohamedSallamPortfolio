@@ -1,13 +1,13 @@
 import { useState } from "react"
 import projectData from '../projects-data/projectsData.json'
-import { GrShare } from "react-icons/gr";
+import { Link } from "react-router-dom";
 
 function PortfolioTabs() {
     const [activeTab, setActiveTab] = useState("all");
     const tabs = [
         {"id": "all", "label": "all", "icon": "⚡"},
-        {"id": "React", "label": "React Apps", "icon": "⚛️"},
-        {"id": "Wordpress", "label": "Wordpress", "icon": "🪵"}
+        {"id": "react", "label": "React Apps", "icon": "⚛️"},
+        {"id": "wordpress", "label": "Wordpress", "icon": "🪵"}
     ]
     const filteredProjects = activeTab === "all" ? projectData : projectData.filter((project)=> project.category === activeTab)
   return (
@@ -62,14 +62,12 @@ function PortfolioTabs() {
                                 <div className="flex gap-4">
                                     {
                                         project.links.live && (
-                                            <a 
-                                            href={project.links.live}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
+                                            <Link
+                                            to={`/${project.slug}`} state={{ projectData: project }} 
                                             className="flex-1 text-center hover:bg-(--second-bg) text-black text-x font-semibold py-2.5 px-4 rounded-xl transition-colors"
                                             >
                                                 preview 🔗
-                                            </a>
+                                            </Link>
                                         )
                                     }
                                                                         {

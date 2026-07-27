@@ -2,6 +2,7 @@
 {
     "id": "proj-01",
     "title": "E-Commerce Analytics Dashboard",
+    "slug": "E-Commerce Analytics Dashboard",
     "category": "react",
     "image": "../assets/product-img.png",
     "imgAlt": "Ecommerce Project",
@@ -16,7 +17,7 @@
 {
     "id": 1,
     "title": "project 2",
-    "category": "react",
+    "category": "wordpress",
     "image": "../assets/product-img.png",
     "imgAlt": "Ecommerce Project",
     "description": "description 1",

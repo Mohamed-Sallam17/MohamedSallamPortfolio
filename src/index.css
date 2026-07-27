@@ -17,6 +17,7 @@ body{
   background-color: var(--bg-color);
   color: var(--heading-color);
   scroll-behavior: smooth;
+  overflow: hidden;
 }
 
 .container{

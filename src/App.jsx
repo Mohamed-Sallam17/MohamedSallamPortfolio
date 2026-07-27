@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import SingleProduct from "./components/SingleProduct";
 
 function App() {
     useEffect(() => {
@@ -18,6 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
+          <Route path=":projectName" element={<SingleProduct/>}/>
         </Route>
       </Routes>
     </div>
