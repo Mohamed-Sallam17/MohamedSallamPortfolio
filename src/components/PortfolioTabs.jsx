@@ -47,7 +47,7 @@ function PortfolioTabs() {
                             <div className="project-image min-h-[20rem] overflow-hidden">
                                 <img src={project.profileImage} alt={project.imgAlt} className='w-full h-full object-cover'/>
                             </div>
-                            <div className="project-content space-y-3 p-4">
+                            <div className="project-content space-y-4 p-4">
                                 <h4 className="text-2xl lg:text-3xl">{project.title}</h4>
                                 <p className="text-[var(--desc-color)]">
                                 {project.description}
@@ -62,13 +62,13 @@ function PortfolioTabs() {
                                     </span>
                                     ))}
                                 </div>
-                                <div className="flex gap-4">
+                                <div className="flex gap-4 actions-btn">
                                     {project.links.live && (
                                             <Link
                                             to={`/${project.slug}`} state={{ projectData: project }} 
-                                            className="flex-1 text-center hover:bg-(--second-bg) text-black text-x font-semibold py-2.5 px-4 rounded-xl transition-colors"
+                                            className="flex-1 text-center hover:bg-(--second-bg) text-white text-x font-semibold py-2.5 px-4 rounded-xl transition-colors"
                                             >
-                                                preview 🔗
+                                                preview 
                                             </Link>
                                     )}
                                     {project.links.github && (
@@ -76,18 +76,18 @@ function PortfolioTabs() {
                                             href={project.links.github}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="flex-1 text-center bg-white hover:bg-(--second-bg) text-black text-xs font-semibold py-2.5 px-4 rounded-xl transition-colors"
+                                            className="flex-1 text-center hover:bg-(--second-bg) text-white text-x font-semibold py-2.5 px-4 rounded-xl transition-colors"
                                             >
-                                                GitHub 💻
+                                                GitHub 
                                             </a>
                                     )}
                                     {
                                       project.details && (
                                         <button
                                             onClick={()=> setSelectProjectModal(project)}
-                                            className="flex-1 text-center bg-[#064663] hover:bg-[#085a80] text-white text-xs font-semibold py-2.5 px-3 rounded-xl transition-colors cursor-pointer flex items-center justify-center gap-1"
+                                            className="flex-1 text-center hover:bg-(--second-bg) text-white text-x font-semibold py-2.5 px-4 rounded-xl transition-colors cursor-pointer"
                                         >
-                                            Overview 🔍
+                                            Overview 
                                         </button>
                                       )  
                                     }

@@ -32,7 +32,7 @@ function Footer() {
               </a>
             </li>
             <li className="w-max bg-(--second-bg) p-4 rounded-2xl">
-              <a href="" className="flex items-center justify-center gap-2">
+              <a href="#" className="flex items-center justify-center gap-2">
                 <FaLocationDot />
                 <span>Egypt</span>
               </a>
@@ -48,9 +48,6 @@ function Footer() {
           </a>
           <a href="https://www.linkedin.com/in/mohamed-sallam-46b3b6237?utm_source=share_via&utm_content=profile&utm_medium=member_ios" className="w-max bg-(--second-bg) p-4 rounded-2xl">
             <FaLinkedin className="text-2xl"/>
-          </a>
-          <a href="" className="w-max bg-(--second-bg) p-4 rounded-2xl">
-            <FaGithub className="text-2xl"/>
           </a>
         </div>
       </div>

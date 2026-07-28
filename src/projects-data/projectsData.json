@@ -2,9 +2,10 @@
 {
     "id": "proj-01",
     "title": "E-Commerce App",
-    "slug": "E-Commerce App",
+    "slug": "Loksy E-Commerce App",
     "category": "react",
-    "image": "/assets/product-img.png",
+    "profileImage": "/public/assets/loksy/mokup.png",
+    "image": "/public/assets/loksy/mokup.png",
     "imgAlt": "Ecommerce Project",
     "description": "description 1",
     "tags":["react","tailwind","AOS"],
@@ -18,8 +19,8 @@
     "id": "proj-02",
     "title": "Marketing Agency",
     "category": "wordpress",
-    "profileImage": "/assets/Imdad/hero.png",
-    "image": "/assets/product-img.png",
+    "profileImage": "/public/assets/Imdad/hero.png",
+    "image": "/public/assets/product-img.png",
     "imgAlt": "Ecommerce Project",
     "description": "description 1",
     "tags":["wordpress","Elementor"],
@@ -29,8 +30,8 @@
     "details": {
         "features": ["سرعة تحميل عالية", "تحسين محركات البحث SEO", "بوابة دفع متكاملة"],
         "screenshots": [
-            "/assets/Imdad/results.png",
-            "/assets/Imdad/creative.png"
+            "/public/assets/Imdad/results.png",
+            "/public/assets/Imdad/creative.png"
         ],
         "videoUrl": "https://www.youtube.com/embed/YOUR_VIDEO_ID"
     },
@@ -40,8 +41,8 @@
     "id": "proj-03",
     "title": "Ecommerce Shop",
     "category": "wordpress",
-    "profileImage": "/assets/Al-Fanaa/Hero.png",
-    "image": "/assets/product-img.png",
+    "profileImage": "/public/assets/Al-Fanaa/Hero.png",
+    "image": "/public/assets/product-img.png",
     "imgAlt": "Ecommerce Project",
     "description": "description 1",
     "tags":["wordpress","Elementor", "Woocommerce"],
@@ -59,9 +60,9 @@
     "id": "proj-04",
     "title": "Children's nursery",
     "category": "wordpress",
-    "profileImage": "/assets/Hapiness-Gate/Hero.png",
+    "profileImage": "/public/assets/Hapiness-Gate/Hero.png",
     "description": "description 1",
-    "image": "/assets/product-img.png",
+    "image": "/public/assets/product-img.png",
     "imgAlt": "Ecommerce Project",
     "tags":["wordpress","Elementor"],
     "links":{

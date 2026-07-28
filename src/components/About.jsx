@@ -1,14 +1,14 @@
 import 'swiper/css';
-import htmlIcon from '/assets/skills-icons/html-icon.png'
-import cssIcon from '/assets/skills-icons/css-icon.png'
-import jsIcon from '/assets/skills-icons/js-icon.png'
-import reactIcon from '/assets/skills-icons/react-icon.png'
-import nextIcon from '/assets/skills-icons/next-icon.png'
-import tsIcon from '/assets/skills-icons/ts-icon.png'
-import tailwindIcon from '/assets/skills-icons/tailwind-icon.png'
-import wordpressIcon from '/assets/skills-icons/wordpress-icon.png'
-import woocommerceIcon from '/assets/skills-icons/woocommerce-icon.png'
-import gitIcon from '/assets/skills-icons/git-icon.png'
+import htmlIcon from '/public/assets/skills-icons/html-icon.png'
+import cssIcon from '/public/assets/skills-icons/css-icon.png'
+import jsIcon from '/public/assets/skills-icons/js-icon.png'
+import reactIcon from '/public/assets/skills-icons/react-icon.png'
+import nextIcon from '/public/assets/skills-icons/next-icon.png'
+import tsIcon from '/public/assets/skills-icons/ts-icon.png'
+import tailwindIcon from '/public/assets/skills-icons/tailwind-icon.png'
+import wordpressIcon from '/public/assets/skills-icons/wordpress-icon.png'
+import woocommerceIcon from '/public/assets/skills-icons/woocommerce-icon.png'
+import gitIcon from '/public/assets/skills-icons/git-icon.png'
 
 
 const skillsIcons = [

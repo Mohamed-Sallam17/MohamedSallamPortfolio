@@ -76,6 +76,11 @@ footer .profiles a{
     border-radius: 20px;
 }
 
+/* actions btn */
+.actions-btn a, .actions-btn button {
+    box-shadow: 0 0 5px var(--second-bg);
+}
+
 /* Animations */
 @keyframes scroll {
   from { transform: translateX(0); }
