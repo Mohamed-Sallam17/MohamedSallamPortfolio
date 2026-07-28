@@ -1,6 +1,5 @@
 import { useState } from "react"
 import projectData from '../projects-data/projectsData.json'
-import { Link } from "react-router-dom";
 import PopupModal from "./PopupModal";
 
 function PortfolioTabs() {
@@ -65,7 +64,7 @@ function PortfolioTabs() {
                                 <div className="flex gap-4 actions-btn">
                                     {project.links.live && (
                                             <a
-                                            href="#"
+                                            href={project.links.live}
                                             className="flex-1 text-center hover:bg-(--second-bg) text-white text-x font-semibold py-2.5 px-4 rounded-xl transition-colors"
                                             >
                                                 preview 
