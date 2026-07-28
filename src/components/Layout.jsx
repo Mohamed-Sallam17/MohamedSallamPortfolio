@@ -5,10 +5,10 @@ import Header from "./Header"
 
 function Layout() {
   return (
-    <div className="">
+    <div className="flex flex-col min-h-screen">
       {/* <MouseGlow/> */}
       <Header/>
-      <main className="">
+      <main className="flex-grow">
         <Outlet/>
       </main>
       <Footer/>

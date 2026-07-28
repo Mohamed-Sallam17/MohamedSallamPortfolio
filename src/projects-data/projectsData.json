@@ -16,7 +16,7 @@
 },
 {
     "id": 1,
-    "title": "project 2",
+    "title": "wordpress 1",
     "category": "wordpress",
     "image": "../assets/product-img.png",
     "imgAlt": "Ecommerce Project",
@@ -30,8 +30,8 @@
 },
 {
     "id": 1,
-    "title": "project 2",
-    "category": "react",
+    "title": "wordpress 2",
+    "category": "wordpress",
     "image": "../assets/product-img.png",
     "imgAlt": "Ecommerce Project",
     "description": "description 1",
@@ -44,8 +44,8 @@
 },
 {
     "id": 1,
-    "title": "project 2",
-    "category": "react",
+    "title": "wordpress 3",
+    "category": "wordpress",
     "description": "description 1",
     "image": "../assets/product-img.png",
     "imgAlt": "Ecommerce Project",
