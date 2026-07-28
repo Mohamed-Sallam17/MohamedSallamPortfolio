@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom"; 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper/modules';
+// import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
@@ -71,7 +71,7 @@ function ProjectModal({ project, onClose }) {
             {project.details?.screenshots && (
                 <>
                 {project.details.screenshots.map((img, idx) => (
-                  <SwiperSlide className="h-auto">
+                  <SwiperSlide className="h-auto!">
                     <img
                     key={idx}
                     src={img}

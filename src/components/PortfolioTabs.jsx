@@ -99,7 +99,7 @@ function PortfolioTabs() {
             </div>
         </div>
     </div>
-    /* Popup Modal */
+    {/* Popup Modal */}
     <PopupModal project={selectProjectModal} onClose={()=> setSelectProjectModal(null)}/>
     </>
   )
