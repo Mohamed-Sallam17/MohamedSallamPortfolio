@@ -66,8 +66,15 @@ footer .profiles a{
     box-shadow: 0 0 2px #ffffff;
 }
 
-
-
+/* Popup Modal */
+.popup-modal{
+    width: 50%;
+    height: 90%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
 
 /* Animations */
 @keyframes scroll {

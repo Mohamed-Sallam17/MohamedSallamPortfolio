@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import logoImg from "../assets/logo.png"
+import logoImg from "/assets/logo.png"
 import { useState } from "react";
 import { MdSunny } from "react-icons/md";
 import { FaMoon } from "react-icons/fa6";

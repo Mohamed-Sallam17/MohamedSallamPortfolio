@@ -1,13 +1,13 @@
 [
 {
     "id": "proj-01",
-    "title": "E-Commerce Analytics Dashboard",
-    "slug": "E-Commerce Analytics Dashboard",
+    "title": "E-Commerce App",
+    "slug": "E-Commerce App",
     "category": "react",
-    "image": "../assets/product-img.png",
+    "image": "/assets/product-img.png",
     "imgAlt": "Ecommerce Project",
     "description": "description 1",
-    "tags":["react","tailwind","GSap"],
+    "tags":["react","tailwind","AOS"],
     "links":{
         "live": "https://store-fashion.com",
         "github":"https://github.com/username/headless-store"
@@ -15,58 +15,62 @@
     "featured": true
 },
 {
-    "id": 1,
-    "title": "wordpress 1",
+    "id": "proj-02",
+    "title": "Marketing Agency",
     "category": "wordpress",
-    "image": "../assets/product-img.png",
+    "profileImage": "/assets/Imdad/hero.png",
+    "image": "/assets/product-img.png",
     "imgAlt": "Ecommerce Project",
     "description": "description 1",
-    "tags":["react","tailwind","GSap"],
+    "tags":["wordpress","Elementor"],
     "links":{
-        "live": "https://store-fashion.com",
-        "github":"https://github.com/username/headless-store"
+        "live": "https://store-fashion.com"
+    },
+    "details": {
+        "features": ["سرعة تحميل عالية", "تحسين محركات البحث SEO", "بوابة دفع متكاملة"],
+        "screenshots": [
+            "/assets/Imdad/results.png",
+            "/assets/Imdad/creative.png"
+        ],
+        "videoUrl": "https://www.youtube.com/embed/YOUR_VIDEO_ID"
     },
     "featured": true
 },
 {
-    "id": 1,
-    "title": "wordpress 2",
+    "id": "proj-03",
+    "title": "Ecommerce Shop",
     "category": "wordpress",
-    "image": "../assets/product-img.png",
+    "profileImage": "/assets/Al-Fanaa/Hero.png",
+    "image": "/assets/product-img.png",
     "imgAlt": "Ecommerce Project",
     "description": "description 1",
-    "tags":["react","tailwind","GSap"],
+    "tags":["wordpress","Elementor", "Woocommerce"],
     "links":{
-        "live": "https://store-fashion.com",
-        "github":"https://github.com/username/headless-store"
+        "live": "https://store-fashion.com"
+    },
+    "details": {
+        "features": ["سرعة تحميل عالية", "تحسين محركات البحث SEO", "بوابة دفع متكاملة"],
+        "screenshots": ["/images/wp1-full.jpg"],
+        "videoUrl": "https://www.youtube.com/embed/YOUR_VIDEO_ID"
     },
     "featured": true
 },
 {
-    "id": 1,
-    "title": "wordpress 3",
+    "id": "proj-04",
+    "title": "Children's nursery",
     "category": "wordpress",
+    "profileImage": "/assets/Hapiness-Gate/Hero.png",
     "description": "description 1",
-    "image": "../assets/product-img.png",
+    "image": "/assets/product-img.png",
     "imgAlt": "Ecommerce Project",
-    "tags":["react","tailwind","GSap"],
+    "tags":["wordpress","Elementor"],
     "links":{
-        "live": "https://store-fashion.com",
-        "github":"https://github.com/username/headless-store"
+        "live": "https://store-fashion.com"
     },
-    "featured": true
-},
-{
-    "id": 1,
-    "title": "project 2",
-    "category": "react",
-    "image": "../assets/product-img.png",
-    "imgAlt": "Ecommerce Project",
-    "description": "description 1",
-    "tags":["react","tailwind","GSap"],
-    "links":{
-        "live": "https://store-fashion.com",
-        "github":"https://github.com/username/headless-store"
+    "details": {
+        "features": ["سرعة تحميل عالية", "تحسين محركات البحث SEO", "بوابة دفع متكاملة"],
+        "screenshots": ["/images/wp1-full.jpg"],
+        "videoUrl": "https://www.youtube.com/embed/YOUR_VIDEO_ID"
     },
     "featured": true
 }

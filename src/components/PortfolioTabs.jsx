@@ -1,9 +1,11 @@
 import { useState } from "react"
 import projectData from '../projects-data/projectsData.json'
 import { Link } from "react-router-dom";
+import PopupModal from "./PopupModal";
 
 function PortfolioTabs() {
     const [activeTab, setActiveTab] = useState("all");
+    const [selectProjectModal, setSelectProjectModal] = useState(null)
     const tabs = [
         {"id": "all", "label": "all", "icon": "⚡"},
         {"id": "react", "label": "React Apps", "icon": "⚛️"},
@@ -11,6 +13,7 @@ function PortfolioTabs() {
     ]
     const filteredProjects = activeTab === "all" ? projectData : projectData.filter((project)=> project.category === activeTab)
   return (
+    <>
     <div className="tabs">
         <div className="container">
             <div className="flex justify-center items-center gap-3 mb-12">
@@ -41,8 +44,8 @@ function PortfolioTabs() {
                             className="project-card overflow-hidden rounded-3xl bg-[#03182b]"
                             key={project.id}
                             >
-                            <div className="project-image h-48 overflow-hidden">
-                                <img src={project.image} alt={project.imgAlt} className='w-full h-full object-cover'/>
+                            <div className="project-image min-h-[20rem] overflow-hidden">
+                                <img src={project.profileImage} alt={project.imgAlt} className='w-full h-full object-cover'/>
                             </div>
                             <div className="project-content space-y-3 p-4">
                                 <h4 className="text-2xl lg:text-3xl">{project.title}</h4>
@@ -60,18 +63,15 @@ function PortfolioTabs() {
                                     ))}
                                 </div>
                                 <div className="flex gap-4">
-                                    {
-                                        project.links.live && (
+                                    {project.links.live && (
                                             <Link
                                             to={`/${project.slug}`} state={{ projectData: project }} 
                                             className="flex-1 text-center hover:bg-(--second-bg) text-black text-x font-semibold py-2.5 px-4 rounded-xl transition-colors"
                                             >
                                                 preview 🔗
                                             </Link>
-                                        )
-                                    }
-                                                                        {
-                                        project.links.github && (
+                                    )}
+                                    {project.links.github && (
                                             <a 
                                             href={project.links.github}
                                             target="_blank"
@@ -80,7 +80,16 @@ function PortfolioTabs() {
                                             >
                                                 GitHub 💻
                                             </a>
-                                        )
+                                    )}
+                                    {
+                                      project.details && (
+                                        <button
+                                            onClick={()=> setSelectProjectModal(project)}
+                                            className="flex-1 text-center bg-[#064663] hover:bg-[#085a80] text-white text-xs font-semibold py-2.5 px-3 rounded-xl transition-colors cursor-pointer flex items-center justify-center gap-1"
+                                        >
+                                            Overview 🔍
+                                        </button>
+                                      )  
                                     }
                                 </div>
                             </div>
@@ -90,6 +99,9 @@ function PortfolioTabs() {
             </div>
         </div>
     </div>
+    /* Popup Modal */
+    <PopupModal project={selectProjectModal} onClose={()=> setSelectProjectModal(null)}/>
+    </>
   )
 }
 
