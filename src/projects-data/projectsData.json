@@ -10,8 +10,8 @@
     "description": "description 1",
     "tags":["react","tailwind","AOS"],
     "links":{
-        "live": "https://store-fashion.com",
-        "github":"https://github.com/username/headless-store"
+        "live": "#",
+        "github":"#"
     },
     "featured": true
 },

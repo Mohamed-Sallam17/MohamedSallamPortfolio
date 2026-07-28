@@ -64,12 +64,12 @@ function PortfolioTabs() {
                                 </div>
                                 <div className="flex gap-4 actions-btn">
                                     {project.links.live && (
-                                            <Link
-                                            to={`/${project.slug}`} state={{ projectData: project }} 
+                                            <a
+                                            href="#"
                                             className="flex-1 text-center hover:bg-(--second-bg) text-white text-x font-semibold py-2.5 px-4 rounded-xl transition-colors"
                                             >
                                                 preview 
-                                            </Link>
+                                            </a>
                                     )}
                                     {project.links.github && (
                                             <a 
