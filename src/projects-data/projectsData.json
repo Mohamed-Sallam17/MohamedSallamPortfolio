@@ -31,9 +31,19 @@
         "features": ["سرعة تحميل عالية", "تحسين محركات البحث SEO", "بوابة دفع متكاملة"],
         "screenshots": [
             "/public/assets/Imdad/results.png",
-            "/public/assets/Imdad/creative.png"
+            "/public/assets/Imdad/creative.png",
+            "/public/assets/Imdad/know.png",
+            "/public/assets/Imdad/vision.png",
+            "/public/assets/Imdad/logos-sliders.png",
+            "/public/assets/Imdad/FAQ.png",
+            "/public/assets/Imdad/results.png",
+            "/public/assets/Imdad/services.png",
+            "/public/assets/Imdad/Screenshot_44.png",
+            "/public/assets/Imdad/Screenshot_45.png",
+            "/public/assets/Imdad/Testemonials.png",
+            "/public/assets/Imdad/footer.png"
         ],
-        "videoUrl": "https://www.youtube.com/embed/YOUR_VIDEO_ID"
+        "videoUrl": ""
     },
     "featured": true
 },
@@ -51,8 +61,15 @@
     },
     "details": {
         "features": ["سرعة تحميل عالية", "تحسين محركات البحث SEO", "بوابة دفع متكاملة"],
-        "screenshots": ["/images/wp1-full.jpg"],
-        "videoUrl": "https://www.youtube.com/embed/YOUR_VIDEO_ID"
+        "screenshots": [
+            "/public/assets/Al-Fanaa/Hero.png",
+            "/public/assets/Al-Fanaa/categories.png",
+            "/public/assets/Al-Fanaa/banner.png",
+            "/public/assets/Al-Fanaa/Screenshot_36.png",
+            "/public/assets/Al-Fanaa/gallery.png",
+            "/public/assets/Al-Fanaa/newsletter.png"
+        ],
+        "videoUrl": ""
     },
     "featured": true
 },
@@ -70,8 +87,17 @@
     },
     "details": {
         "features": ["سرعة تحميل عالية", "تحسين محركات البحث SEO", "بوابة دفع متكاملة"],
-        "screenshots": ["/images/wp1-full.jpg"],
-        "videoUrl": "https://www.youtube.com/embed/YOUR_VIDEO_ID"
+        "screenshots": [
+            "/public/assets/Hapiness-Gate/Hero.png",
+            "/public/assets/Hapiness-Gate/about-us.png",
+            "/public/assets/Hapiness-Gate/practice.png",
+            "/public/assets/Hapiness-Gate/programes.png",
+            "/public/assets/Hapiness-Gate/weekly.png",
+            "/public/assets/Hapiness-Gate/testemonials.png",
+            "/public/assets/Hapiness-Gate/Address.png"
+
+        ],
+        "videoUrl": ""
     },
     "featured": true
 }

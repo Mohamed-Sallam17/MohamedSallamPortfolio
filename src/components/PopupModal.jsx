@@ -71,7 +71,7 @@ function ProjectModal({ project, onClose }) {
             {project.details?.screenshots && (
                 <>
                 {project.details.screenshots.map((img, idx) => (
-                  <SwiperSlide className="h-auto!">
+                  <SwiperSlide className="">
                     <img
                     key={idx}
                     src={img}
