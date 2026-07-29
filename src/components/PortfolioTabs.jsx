@@ -44,7 +44,7 @@ function PortfolioTabs() {
                             key={project.id}
                             >
                             <div className="project-image h-auto overflow-hidden">
-                                <img src={project.profileImage} alt={project.imgAlt} className='w-full h-full object-cover'/>
+                                <img src={project.profileImage} alt={project.imgAlt} loading="lazy" decoding="async" className='w-full h-full object-cover'/>
                             </div>
                             <div className="project-content space-y-4 p-4">
                                 <h4 className="text-2xl lg:text-3xl">{project.title}</h4>

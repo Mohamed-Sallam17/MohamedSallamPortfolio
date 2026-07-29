@@ -86,7 +86,7 @@ function About() {
                                 {
                                 [...skillsIcons,...skillsIcons,...skillsIcons,...skillsIcons,...skillsIcons,...skillsIcons].map((icon,index)=>(
                                     <div className="marquee-item p-2 rounded-xl border-1 border-[#052c50] border-solid w-[50px] h-[50px] md:w-[80px] md:h-[80px] flex justify-center items-center" key={index}>
-                                        <img src={icon.src} alt={icon.alt} />
+                                        <img src={icon.src} alt={icon.alt} loading="lazy" decoding="async"/>
                                     </div>
                                 ))
                                 }

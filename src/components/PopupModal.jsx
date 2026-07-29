@@ -76,6 +76,8 @@ function ProjectModal({ project, onClose }) {
                     key={idx}
                     src={img}
                     alt={`Screenshot ${idx + 1}`}
+                    loading="lazy" 
+                    decoding="async"
                     className="w-full rounded-xl border border-slate-700 object-cover h-full"
                     />
                   </SwiperSlide>
