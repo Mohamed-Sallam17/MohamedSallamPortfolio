@@ -51,7 +51,7 @@
     "id": "proj-03",
     "title": "Ecommerce Shop",
     "category": "wordpress",
-    "profileImage": "/public/assets/Alfanaa/hero.png",
+    "profileImage": "/public/assets/alfanaa/hero.png",
     "image": "/public/assets/product-img.png",
     "imgAlt": "Ecommerce Project",
     "description": "description 1",
@@ -62,12 +62,12 @@
     "details": {
         "features": ["سرعة تحميل عالية", "تحسين محركات البحث SEO", "بوابة دفع متكاملة"],
         "screenshots": [
-            "/public/assets/Alfanaa/hero.png",
-            "/public/assets/Alfanaa/categories.png",
-            "/public/assets/Alfanaa/banner.png",
-            "/public/assets/Alfanaa/Screenshot_36.png",
-            "/public/assets/Alfanaa/gallery.png",
-            "/public/assets/Alfanaa/newsletter.png"
+            "/public/assets/alfanaa/hero.png",
+            "/public/assets/alfanaa/categories.png",
+            "/public/assets/alfanaa/banner.png",
+            "/public/assets/alfanaa/Screenshot_36.png",
+            "/public/assets/alfanaa/gallery.png",
+            "/public/assets/alfanaa/newsletter.png"
         ],
         "videoUrl": ""
     },
