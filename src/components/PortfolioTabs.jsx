@@ -43,7 +43,7 @@ function PortfolioTabs() {
                             className="project-card overflow-hidden rounded-3xl bg-[#03182b]"
                             key={project.id}
                             >
-                            <div className="project-image min-h-[20rem] overflow-hidden">
+                            <div className="project-image h-auto overflow-hidden">
                                 <img src={project.profileImage} alt={project.imgAlt} className='w-full h-full object-cover'/>
                             </div>
                             <div className="project-content space-y-4 p-4">
