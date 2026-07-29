@@ -12,7 +12,7 @@ function ProjectModal({ project, onClose }) {
 
   return ReactDOM.createPortal(
     <div
-      className="fixed inset-0 z-[9999] backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto"
+      className="popup-modal fixed inset-0 z-[9999] backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto"
       onClick={onClose}
     >
       <div
@@ -34,7 +34,7 @@ function ProjectModal({ project, onClose }) {
 
 
         {project.details?.features && (
-          <div className="space-y-2">
+          <div className="space-y-2 project-features">
             <h5 className="text-lg font-semibold text-[var(--second-color)]">Features:</h5>
             <ul className="list-disc list-inside space-y-1 text-gray-300 text-sm">
               {project.details.features.map((feature, idx) => (
@@ -45,7 +45,7 @@ function ProjectModal({ project, onClose }) {
         )}
 
         {project.details?.videoUrl && (
-          <div className="space-y-2">
+          <div className="space-y-2 project-video">
             <h5 className="text-lg font-semibold text-[var(--second-color)]">Video: </h5>
             <div className="aspect-video w-full rounded-2xl overflow-hidden bg-black">
               <iframe
@@ -59,7 +59,7 @@ function ProjectModal({ project, onClose }) {
         )}
 
 
-        <div className="space-y-3">
+        <div className="space-y-3 project-media">
             <h5 className="text-lg font-semibold text-[var(--second-color)]">Images: </h5>
             <Swiper
                 pagination={{

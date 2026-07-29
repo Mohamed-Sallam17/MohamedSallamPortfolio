@@ -81,6 +81,10 @@ footer .profiles a{
     box-shadow: 0 0 5px var(--second-bg);
 }
 
+/* popup media */
+.popup-modal .project-media .swiper-wrapper{
+    align-items: center;
+}
 /* Animations */
 @keyframes scroll {
   from { transform: translateX(0); }
