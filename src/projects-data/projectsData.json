@@ -88,13 +88,13 @@
     "details": {
         "features": ["سرعة تحميل عالية", "تحسين محركات البحث SEO", "بوابة دفع متكاملة"],
         "screenshots": [
-            "/public/assets/hapinessGate/hero.png",
-            "/public/assets/hapinessGate/about-us.png",
-            "/public/assets/hapinessGate/practice.png",
-            "/public/assets/hapinessGate/programes.png",
-            "/public/assets/hapinessGate/weekly.png",
-            "/public/assets/hapinessGate/testemonials.png",
-            "/public/assets/hapinessGate/Address.png"
+            "/assets/hapinessGate/hero.png",
+            "/assets/hapinessGate/about-us.png",
+            "/assets/hapinessGate/practice.png",
+            "/assets/hapinessGate/programes.png",
+            "/assets/hapinessGate/weekly.png",
+            "/assets/hapinessGate/testemonials.png",
+            "/assets/hapinessGate/Address.png"
 
         ],
         "videoUrl": ""
