@@ -85,6 +85,22 @@ footer .profiles a{
 .popup-modal .project-media .swiper-wrapper{
     align-items: center;
 }
+
+.aurora-container {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* Animations */
 @keyframes scroll {
   from { transform: translateX(0); }
