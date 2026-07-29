@@ -1,3 +1,14 @@
+ 
+:root {
+  --background: #F8F7F4;    /* Background */
+  --primary: #22C55E;      /* Main Green */
+  --primary-hover: #16A34A;
+  --secondary: #14B8A6;    /* Teal Accent */
+  --text: #1F2937;         /* Main Text */
+  --text-muted: #6B7280;
+  --border: #E5E7EB;
+  --surface-hover: #18181B;
+} 
 
 
 :root{
@@ -14,8 +25,8 @@ body{
   padding: 0;
   box-sizing: border-box;
   font-family: "Poetsen One", sans-serif;
-  background-color: var(--bg-color);
-  color: var(--heading-color);
+  background-color: var(--background);
+  color: var(--text);
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
@@ -35,6 +46,6 @@ body{
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--second-color);
+  background: var(--primary);
   border-radius: 20px;
 }

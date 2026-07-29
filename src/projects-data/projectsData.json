@@ -7,8 +7,8 @@
     "profileImage": "/assets/loksy/mokup.png",
     "image": "/assets/loksy/mokup.png",
     "imgAlt": "Ecommerce Project",
-    "description": "description 1",
-    "tags":["react","tailwind","AOS"],
+    "description": "Modern ecommerce platform with Redux Toolkit, responsive UI and payment integration",
+    "tags":["React","Redux","Tailwind","AOS"],
     "links":{
         "live": "#",
         "github":"#"
@@ -43,7 +43,7 @@
             "/assets/imdad/Testemonials.png",
             "/assets/imdad/footer.png"
         ],
-        "videoUrl": ""
+        "videoUrl": "video.com"
     },
     "featured": true
 },

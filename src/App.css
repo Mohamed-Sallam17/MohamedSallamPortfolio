@@ -41,17 +41,17 @@
     transform: translateY(-50%);
 }
 .marquee::before{
-    background: linear-gradient(-90deg, var(--bg-color), var(--bg-color),transparent);
+    background: linear-gradient(-90deg, var(--background), var(--background),transparent);
     right: 0;
 }
 .marquee::after{
-    background: linear-gradient(90deg, var(--bg-color), var(--bg-color),transparent);
+    background: linear-gradient(90deg, var(--background), var(--background),transparent);
     left: 0;
 }
 
 /* Dot Line Style */
 .dot-shape .line{
-    background: linear-gradient(45deg, transparent, transparent, #007aff69, transparent, transparent);
+    background: linear-gradient(45deg, transparent, transparent, var(--primary), transparent, transparent);
 }
 .dot{
     position: absolute;
@@ -78,7 +78,7 @@ footer .profiles a{
 
 /* actions btn */
 .actions-btn a, .actions-btn button {
-    box-shadow: 0 0 5px var(--second-bg);
+    box-shadow: 0 0 5px var(--border);
 }
 
 /* popup media */

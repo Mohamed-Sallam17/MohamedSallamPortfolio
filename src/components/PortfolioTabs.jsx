@@ -25,8 +25,8 @@ function PortfolioTabs() {
                             onClick={() => setActiveTab(tab.id)}
                             className={`px-5 py-2.5 rounded-full font-medium text-sm transition-all duration-300 ease-in-out cursor-pointer ${
                                 isActive 
-                                ? "bg-[#06466380] text-white shadow-lg scale-105" 
-                                : "bg-gray-100 text-gray-600 hover:bg-gray-200 hover:text-gray-900"
+                                ? "bg-(--primary) text-white shadow-lg scale-105" 
+                                : "bg-white border-2 border-(--border) hover:bg-(--primary) hover:border-(--primary) hover:text-white"
                             }`}
                             >
                                 {/* <span>{tab.icon}</span> */}
@@ -40,7 +40,7 @@ function PortfolioTabs() {
                 {
                     filteredProjects.map((project)=>(
                         <div
-                            className="project-card overflow-hidden rounded-3xl bg-[#03182b]"
+                            className="project-card overflow-hidden rounded-3xl bg-white"
                             key={project.id}
                             >
                             <div className="project-image h-auto overflow-hidden">
@@ -48,13 +48,13 @@ function PortfolioTabs() {
                             </div>
                             <div className="project-content space-y-4 p-4">
                                 <h4 className="text-2xl lg:text-3xl">{project.title}</h4>
-                                <p className="text-[var(--desc-color)]">
+                                <p className="text-(--text-muted)">
                                 {project.description}
                                 </p>
                                 <div className="tech-stack flex flex-wrap gap-2">
                                     {project.tags.map((tag, index) => (
                                     <span
-                                        className="tech-badge inline-block w-max p-2 bg-(--second-bg) rounded-3xl whitespace-nowrap"
+                                        className="tech-badge inline-block w-max p-2 bg-(--background) text-(--primary) rounded-3xl whitespace-nowrap"
                                         key={index}
                                     >
                                         {tag}
@@ -65,7 +65,7 @@ function PortfolioTabs() {
                                     {project.links.live && (
                                             <a
                                             href={project.links.live}
-                                            className="flex-1 text-center hover:bg-(--second-bg) text-white text-x font-semibold py-2.5 px-4 rounded-xl transition-colors"
+                                            className="flex-1 text-center bg-(--background) hover:bg-(--primary) hover:text-white text-x font-semibold py-2.5 px-4 rounded-xl transition-colors"
                                             >
                                                 preview 
                                             </a>
@@ -75,7 +75,7 @@ function PortfolioTabs() {
                                             href={project.links.github}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="flex-1 text-center hover:bg-(--second-bg) text-white text-x font-semibold py-2.5 px-4 rounded-xl transition-colors"
+                                            className="flex-1 text-center bg-(--background) hover:bg-(--primary) hover:text-white text-x font-semibold py-2.5 px-4 rounded-xl transition-colors"
                                             >
                                                 GitHub 
                                             </a>
@@ -84,7 +84,7 @@ function PortfolioTabs() {
                                       project.details && (
                                         <button
                                             onClick={()=> setSelectProjectModal(project)}
-                                            className="flex-1 text-center hover:bg-(--second-bg) text-white text-x font-semibold py-2.5 px-4 rounded-xl transition-colors cursor-pointer"
+                                            className="flex-1 text-center bg-(--background) hover:bg-(--primary) hover:text-white text-x font-semibold py-2.5 px-4 rounded-xl transition-colors cursor-pointer"
                                         >
                                             Overview 
                                         </button>

@@ -35,7 +35,7 @@ function ProjectModal({ project, onClose }) {
 
         {project.details?.features && (
           <div className="space-y-2 project-features">
-            <h5 className="text-lg font-semibold text-[var(--second-color)]">Features:</h5>
+            <h5 className="text-lg font-semibold text-[var(--primary)]">Features:</h5>
             <ul className="list-disc list-inside space-y-1 text-gray-300 text-sm">
               {project.details.features.map((feature, idx) => (
                 <li key={idx}>{feature}</li>
@@ -46,9 +46,9 @@ function ProjectModal({ project, onClose }) {
 
         {project.details?.videoUrl && (
           <div className="space-y-2 project-video">
-            <h5 className="text-lg font-semibold text-[var(--second-color)]">Video: </h5>
+            <h5 className="text-lg font-semibold text-[var(--primary)]">Video: </h5>
             <div className="aspect-video w-full rounded-2xl overflow-hidden bg-black">
-              <iframe
+              <video
                 src={project.details.videoUrl}
                 title="Project Video"
                 className="w-full h-full border-0"
@@ -60,18 +60,15 @@ function ProjectModal({ project, onClose }) {
 
 
         <div className="space-y-3 project-media">
-            <h5 className="text-lg font-semibold text-[var(--second-color)]">Images: </h5>
+            <h5 className="text-lg font-semibold text-[var(--primary)]">Images: </h5>
             <Swiper
-                pagination={{
-                dynamicBullets: true,
-                }}
-                // modules={[Pagination]}
-                className="mySwiper"
+                spaceBetween={"30px"}
+                className="mySwiper border-2 border-[var(--primary)] rounded-2xl p-5!"
             >
             {project.details?.screenshots && (
                 <>
                 {project.details.screenshots.map((img, idx) => (
-                  <SwiperSlide className="">
+                  <SwiperSlide >
                     <img
                     key={idx}
                     src={img}
