@@ -51,7 +51,7 @@
     "id": "proj-03",
     "title": "Ecommerce Shop",
     "category": "wordpress",
-    "profileImage": "/public/assets/Al-Fanaa/hero.png",
+    "profileImage": "/public/assets/Alfanaa/hero.png",
     "image": "/public/assets/product-img.png",
     "imgAlt": "Ecommerce Project",
     "description": "description 1",
@@ -62,12 +62,12 @@
     "details": {
         "features": ["سرعة تحميل عالية", "تحسين محركات البحث SEO", "بوابة دفع متكاملة"],
         "screenshots": [
-            "/public/assets/Al-Fanaa/hero.png",
-            "/public/assets/Al-Fanaa/categories.png",
-            "/public/assets/Al-Fanaa/banner.png",
-            "/public/assets/Al-Fanaa/Screenshot_36.png",
-            "/public/assets/Al-Fanaa/gallery.png",
-            "/public/assets/Al-Fanaa/newsletter.png"
+            "/public/assets/Alfanaa/hero.png",
+            "/public/assets/Alfanaa/categories.png",
+            "/public/assets/Alfanaa/banner.png",
+            "/public/assets/Alfanaa/Screenshot_36.png",
+            "/public/assets/Alfanaa/gallery.png",
+            "/public/assets/Alfanaa/newsletter.png"
         ],
         "videoUrl": ""
     },
@@ -77,7 +77,7 @@
     "id": "proj-04",
     "title": "Children's nursery",
     "category": "wordpress",
-    "profileImage": "/public/assets/Hapiness-Gate/hero.png",
+    "profileImage": "/public/assets/hapinessGate/hero.png",
     "description": "description 1",
     "image": "/public/assets/product-img.png",
     "imgAlt": "Ecommerce Project",
@@ -88,13 +88,13 @@
     "details": {
         "features": ["سرعة تحميل عالية", "تحسين محركات البحث SEO", "بوابة دفع متكاملة"],
         "screenshots": [
-            "/public/assets/Hapiness-Gate/hero.png",
-            "/public/assets/Hapiness-Gate/about-us.png",
-            "/public/assets/Hapiness-Gate/practice.png",
-            "/public/assets/Hapiness-Gate/programes.png",
-            "/public/assets/Hapiness-Gate/weekly.png",
-            "/public/assets/Hapiness-Gate/testemonials.png",
-            "/public/assets/Hapiness-Gate/Address.png"
+            "/public/assets/hapinessGate/hero.png",
+            "/public/assets/hapinessGate/about-us.png",
+            "/public/assets/hapinessGate/practice.png",
+            "/public/assets/hapinessGate/programes.png",
+            "/public/assets/hapinessGate/weekly.png",
+            "/public/assets/hapinessGate/testemonials.png",
+            "/public/assets/hapinessGate/Address.png"
 
         ],
         "videoUrl": ""
