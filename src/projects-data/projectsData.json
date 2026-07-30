@@ -49,9 +49,41 @@
 },
 {
     "id": "proj-03",
-    "title": "Ecommerce Shop",
+    "title": "Marketing Agency",
     "category": "wordpress",
-    "profileImage": "/assets/alfanaa/hero.png",
+    "profileImage": "/assets/imdad/hero.png",
+    "image": "/assets/product-img.png",
+    "imgAlt": "Ecommerce Project",
+    "description": "description 1",
+    "tags":["wordpress","Elementor"],
+    "links":{
+        "live": "http://imdaad.sa/"
+    },
+    "details": {
+        "features": ["سرعة تحميل عالية", "تحسين محركات البحث SEO", "بوابة دفع متكاملة"],
+        "screenshots": [
+            "/assets/imdad/results.png",
+            "/assets/imdad/creative.png",
+            "/assets/imdad/know.png",
+            "/assets/imdad/vision.png",
+            "/assets/imdad/logos-sliders.png",
+            "/assets/imdad/FAQ.png",
+            "/assets/imdad/results.png",
+            "/assets/imdad/services.png",
+            "/assets/imdad/Screenshot_44.png",
+            "/assets/imdad/Screenshot_45.png",
+            "/assets/imdad/Testemonials.png",
+            "/assets/imdad/footer.png"
+        ],
+        "videoUrl": "video.com"
+    },
+    "featured": true
+},
+{
+    "id": "proj-04",
+    "title": "Tiseen MArketing Agency",
+    "category": "wordpress",
+    "profileImage": "/assets/tiseen/mokup.png",
     "image": "/assets/product-img.png",
     "imgAlt": "Ecommerce Project",
     "description": "description 1",
@@ -74,7 +106,7 @@
     "featured": true
 },
 {
-    "id": "proj-04",
+    "id": "proj-05",
     "title": "Children's nursery",
     "category": "wordpress",
     "profileImage": "/assets/hapinessGate/hero.png",
