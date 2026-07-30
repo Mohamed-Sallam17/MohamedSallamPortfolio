@@ -23,7 +23,7 @@ function PortfolioTabs() {
                             <button
                             key={tab.id}
                             onClick={() => setActiveTab(tab.id)}
-                            className={`px-5 py-2.5 rounded-full font-medium text-sm transition-all duration-300 ease-in-out cursor-pointer ${
+                            className={`px-5 py-2.5 rounded-xl font-medium text-sm transition-all duration-300 ease-in-out cursor-pointer ${
                                 isActive 
                                 ? "bg-(--primary) text-white shadow-lg scale-105" 
                                 : "bg-white border-2 border-(--border) hover:bg-(--primary) hover:border-(--primary) hover:text-white"

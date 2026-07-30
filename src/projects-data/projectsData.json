@@ -48,40 +48,8 @@
     "featured": true
 },
 {
-    "id": "proj-03",
-    "title": "Marketing Agency",
-    "category": "wordpress",
-    "profileImage": "/assets/imdad/hero.png",
-    "image": "/assets/product-img.png",
-    "imgAlt": "Ecommerce Project",
-    "description": "description 1",
-    "tags":["wordpress","Elementor"],
-    "links":{
-        "live": "http://imdaad.sa/"
-    },
-    "details": {
-        "features": ["سرعة تحميل عالية", "تحسين محركات البحث SEO", "بوابة دفع متكاملة"],
-        "screenshots": [
-            "/assets/imdad/results.png",
-            "/assets/imdad/creative.png",
-            "/assets/imdad/know.png",
-            "/assets/imdad/vision.png",
-            "/assets/imdad/logos-sliders.png",
-            "/assets/imdad/FAQ.png",
-            "/assets/imdad/results.png",
-            "/assets/imdad/services.png",
-            "/assets/imdad/Screenshot_44.png",
-            "/assets/imdad/Screenshot_45.png",
-            "/assets/imdad/Testemonials.png",
-            "/assets/imdad/footer.png"
-        ],
-        "videoUrl": "video.com"
-    },
-    "featured": true
-},
-{
     "id": "proj-04",
-    "title": "Tiseen MArketing Agency",
+    "title": "Tiseen Marketing Agency",
     "category": "wordpress",
     "profileImage": "/assets/tiseen/mokup.png",
     "image": "/assets/product-img.png",
@@ -89,7 +57,7 @@
     "description": "description 1",
     "tags":["wordpress","Elementor", "Woocommerce"],
     "links":{
-        "live": "https://al-fanaa.com/"
+        "live": "https://tiseen.com/"
     },
     "details": {
         "features": ["سرعة تحميل عالية", "تحسين محركات البحث SEO", "بوابة دفع متكاملة"],
@@ -102,6 +70,31 @@
             "/assets/alfanaa/newsletter.png"
         ],
         "videoUrl": ""
+    },
+    "featured": true
+},
+{
+    "id": "proj-03",
+    "title": "Ecommerce Shop",
+    "category": "wordpress",
+    "profileImage": "/assets/alfanaa/hero.png",
+    "image": "/assets/product-img.png",
+    "imgAlt": "Ecommerce Project",
+    "description": "description 1",
+    "tags":["wordpress","Elementor"],
+    "links":{
+        "live": "http://imdaad.sa/"
+    },
+    "details": {
+        "features": ["سرعة تحميل عالية", "تحسين محركات البحث SEO", "بوابة دفع متكاملة"],
+        "screenshots": [
+            "/assets/alfanaa/banner.png",
+            "/assets/alfanaa/categories.png",
+            "/assets/alfanaa/gallery.png",
+            "/assets/alfanaa/newsletter.png",
+            "/assets/alfanaa/Screenshot_36.png"
+        ],
+        "videoUrl": "video.com"
     },
     "featured": true
 },

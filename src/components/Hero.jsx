@@ -1,4 +1,6 @@
 import SideRays from './Aurora';
+import { GrDownload } from 'react-icons/gr';
+import { FaArrowRight } from 'react-icons/fa';
 
 
 function Hero() {
@@ -20,13 +22,25 @@ function Hero() {
         />
       </div>
       <div className="h-full container mx-auto p-4 relative z-10">
-        <div className="h-full flex justify-center items-center flex-col text-center">
-            <span className="uppercase text-sm lg:text-lg text-(--primary) mb-4">
+        <div className="h-full flex justify-center items-center flex-col text-center space-y-6" >
+          <div>
+            <h1  className="uppercase text-sm lg:text-lg text-(--primary) mb-4">
               frontend & wordpress developer
-            </span>
-            <h2 className="text-5xl lg:text-6xl font-bold leading-[1.4]">
+            </h1>
+            <p className="text-5xl lg:text-6xl font-bold leading-[1.4]">
                 Building Modern,<br />Web <span className="text-(--primary)">Experiences</span>
-            </h2>
+            </p>
+          </div>
+          <div className='flex items-center justify-center gap-5'>
+            <button className='px-6 py-4 bg-(--primary) text-white rounded-xl border border-(--border) flex items-center gap-2 cursor-pointer'>
+              <FaArrowRight />
+              View My Work
+            </button>
+            <button className='px-6 py-4 bg-white rounded-xl border border-(--border) flex items-center gap-2 cursor-pointer'>
+              <GrDownload  className='text-(--primary)'/>
+              Download CV
+            </button>
+          </div>
         </div>
       </div>
     </section>

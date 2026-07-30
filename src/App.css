@@ -1,26 +1,11 @@
 @import "tailwindcss";
 
-/* @theme{
-    --variant-dark: ((.dark) &);
-} */
 
 /* Header Styles */
 
 .toggle-mode svg{
     cursor: pointer;
 }
-
-/* Hero */
-
-/* .canvas-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  pointer-events: none; 
-} */
 
 
 /* Marquee */
@@ -66,15 +51,6 @@ footer .profiles a{
     box-shadow: 0 0 2px #ffffff;
 }
 
-/* Popup Modal */
-.popup-modal{
-    width: 50%;
-    height: 90%;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 20px;
-}
 
 /* actions btn */
 .actions-btn a, .actions-btn button {

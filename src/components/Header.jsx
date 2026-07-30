@@ -17,7 +17,7 @@ function Header() {
   }
 
   return (
-    <header className="h-21 fixed top-0 w-full z-2 flex justify-center items-center backdrop-blur-3xl">
+    <header className="h-21 fixed top-0 w-full z-2 flex justify-center items-center backdrop-blur-3xl z-20">
       <div className="container mx-auto p-4">
         <div className="flex items-center justify-between">
           <div className="navbar-logo">

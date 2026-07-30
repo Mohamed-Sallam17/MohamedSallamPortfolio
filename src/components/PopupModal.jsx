@@ -16,33 +16,53 @@ function ProjectModal({ project, onClose }) {
       onClick={onClose}
     >
       <div
-        className="bg-(--background) text-white border border-(--border) rounded-3xl max-w-2xl w-full max-h-[90vh] overflow-y-auto p-6 relative shadow-2xl space-y-6"
+        className=" pop-overlay bg-(--background) border border-(--border) rounded-3xl max-w-2xl w-full max-h-[90vh] overflow-y-auto p-6 relative shadow-2xl space-y-6"
         onClick={(e) => e.stopPropagation()}
       >
 
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 bg-white border border-(--border) hover:bg-(--primary) hover:border(--primary) w-8 h-8 rounded-full flex items-center justify-center text-lg cursor-pointer transition-colors"
+          className="absolute top-4 right-4 bg-white text-black border border-(--border) w-8 h-8 rounded-full flex items-center justify-center text-lg cursor-pointer transition-colors"
         >
           ✕
         </button>
+        <div>
 
+          <h3 className="text-2xl font-bold pr-8">
+            {project.title}
+          </h3>
+          <p><span className="text-(--primary)">{project.category}</span> Website Development</p>
+        </div>
 
-        <h3 className="text-2xl font-bold pb-3 pr-8">
-          {project.title}
-        </h3>
-
-
-        {project.details?.features && (
-          <div className="space-y-2 project-features">
-            <h5 className="text-lg font-semibold">Features:</h5>
-            <ul className="list-disc list-inside space-y-1 text-(--text-muted) text-sm">
-              {project.details.features.map((feature, idx) => (
-                <li key={idx}>{feature}</li>
-              ))}
-            </ul>
+        <div className="main-content flex">
+          <div>
+            <div className="about-project">
+              <p>{project.description}</p>
+            </div>
+            <div className="features-project">
+              {project.details?.features && (
+                <div className="space-y-2 project-features">
+                  <h5 className="text-lg font-semibold">Features:</h5>
+                  <ul className="list-disc list-inside space-y-1 text-(--text-muted) text-sm">
+                    {project.details.features.map((feature, idx) => (
+                      <li key={idx}>{feature}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+            <div className="project-technologies">
+              
+            </div>
           </div>
-        )}
+          <div>
+            <div className="project-banner">
+              <img src="" alt="" />
+            </div>
+            <div className="project-statics"></div>
+          </div>
+        </div>
+
 
         {project.details?.videoUrl && (
           <div className="space-y-2 project-video">
