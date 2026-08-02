@@ -43,7 +43,7 @@
             "/assets/imdad/Testemonials.png",
             "/assets/imdad/footer.png"
         ],
-        "videoUrl": "video.com"
+        "videoUrl": ""
     },
     "featured": true
 },
@@ -55,7 +55,7 @@
     "image": "/assets/product-img.png",
     "imgAlt": "Ecommerce Project",
     "description": "description 1",
-    "tags":["wordpress","Elementor", "Woocommerce"],
+    "tags":["wordpress","Elementor"],
     "links":{
         "live": "https://tiseen.com/"
     },
@@ -81,7 +81,7 @@
     "image": "/assets/product-img.png",
     "imgAlt": "Ecommerce Project",
     "description": "description 1",
-    "tags":["wordpress","Elementor"],
+    "tags":["wordpress","Elementor", "Woocommerce"],
     "links":{
         "live": "http://imdaad.sa/"
     },
@@ -94,7 +94,7 @@
             "/assets/alfanaa/newsletter.png",
             "/assets/alfanaa/Screenshot_36.png"
         ],
-        "videoUrl": "video.com"
+        "videoUrl": ""
     },
     "featured": true
 },

@@ -6,6 +6,23 @@
 .toggle-mode svg{
     cursor: pointer;
 }
+.navbar-links li{
+    position: relative;
+}
+.navbar-links li::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 0;
+    height: 3px;
+    background-color: var(--primary);
+    transition: all 0.3s linear;
+}
+.navbar-links li:hover::after{
+    width: 100%;
+}
 
 
 /* Marquee */

@@ -40,13 +40,13 @@ function Footer() {
           </ul>
         </div>
         <div className="profiles flex items-center justify-center flex-wrap gap-4 mt-8">
-          <a href="https://github.com/Mohamed-Sallam17" className="w-max border-2 border-(--border) bg-white hover:border-(--primary) hover:bg-(--primary) hover:text-(--background) p-4 rounded-2xl">
+          <a href="https://github.com/Mohamed-Sallam17" target="_blanck" className="w-max border-2 border-(--border) bg-white hover:border-(--primary) hover:bg-(--primary) hover:text-(--background) p-4 rounded-2xl">
             <FaGithub className="text-2xl"/>
           </a>
-          <a href="https://wa.me/+201006830249" className="w-max border-2 border-(--border) bg-white hover:border-(--primary) hover:bg-(--primary) hover:text-(--background) p-4 rounded-2xl">
+          <a href="https://wa.me/+201006830249" target="_blanck" className="w-max border-2 border-(--border) bg-white hover:border-(--primary) hover:bg-(--primary) hover:text-(--background) p-4 rounded-2xl">
             <IoLogoWhatsapp className="text-2xl"/>
           </a>
-          <a href="https://www.linkedin.com/in/mohamed-sallam-46b3b6237?utm_source=share_via&utm_content=profile&utm_medium=member_ios" className="w-max border-2 border-(--border) bg-white hover:border-(--primary) hover:bg-(--primary) hover:text-(--background) p-4 rounded-2xl">
+          <a href="https://www.linkedin.com/in/mohamed-sallam-46b3b6237?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blanck" className="w-max border-2 border-(--border) bg-white hover:border-(--primary) hover:bg-(--primary) hover:text-(--background) p-4 rounded-2xl">
             <FaLinkedin className="text-2xl"/>
           </a>
         </div>

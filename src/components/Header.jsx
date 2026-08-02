@@ -3,10 +3,12 @@ import logoImg from "/public/assets/logo.png"
 import { useState } from "react";
 import { MdSunny } from "react-icons/md";
 import { FaMoon } from "react-icons/fa6";
+import MobileMenu from "./MobileMenu";
 
 
 function Header() {
   const [isDarkMode, setIsDarkMode ] = useState(true);
+  const [isMobileMenu, SetIsMobileMenu] = useState(false);
   const toggleTheme = () => {
     setIsDarkMode(!isDarkMode)
     if(!isDarkMode){
@@ -27,16 +29,16 @@ function Header() {
           </div>
           <div className="navbar-links hidden lg:flex">
             <ul className="flex space-x-4">
-              <li>
+              <li className="py-4">
                 <a href="#about">About</a>
               </li>
-              <li>
+              <li className="py-4">
                 <a href="#skills">Skills</a>
               </li>
-              <li>
+              <li className="py-4">
                 <a href="#projects">Projects</a>
               </li>
-              <li>
+              <li className="py-4">
                 <a href="#contact">Contact</a>
               </li>
             </ul>
@@ -48,7 +50,7 @@ function Header() {
                 {/* {lightModeIcon}
                 {darkModeIcon} */}
             </div>
-            <div className="toggle-menu lg:hidden">
+            <div className="toggle-menu lg:hidden" onClick={()=> SetIsMobileMenu(true)}>
               <svg fill="[var(--text)]" width="30" height="30" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
                 <title>bars</title>
                 <path d="M2 8.749h28c0.414 0 0.75-0.336 0.75-0.75s-0.336-0.75-0.75-0.75v0h-28c-0.414 0-0.75 0.336-0.75 0.75s0.336 0.75 0.75 0.75v0zM30 15.25h-28c-0.414 0-0.75 0.336-0.75 0.75s0.336 0.75 0.75 0.75v0h28c0.414 0 0.75-0.336 0.75-0.75s-0.336-0.75-0.75-0.75v0zM30 23.25h-28c-0.414 0-0.75 0.336-0.75 0.75s0.336 0.75 0.75 0.75v0h28c0.414 0 0.75-0.336 0.75-0.75s-0.336-0.75-0.75-0.75v0z"></path>
@@ -57,6 +59,7 @@ function Header() {
           </div>
         </div>
       </div>
+      {isMobileMenu && <MobileMenu isOpen={isMobileMenu} onClose={()=> SetIsMobileMenu(false)}/>}
     </header>
   );
 }
