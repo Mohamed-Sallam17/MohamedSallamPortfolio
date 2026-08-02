@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import { IoDesktopSharp } from "react-icons/io5";
 
 
 function ProjectModal({ project, onClose }) {
@@ -16,7 +17,7 @@ function ProjectModal({ project, onClose }) {
       onClick={onClose}
     >
       <div
-        className=" pop-overlay bg-(--background) border border-(--border) rounded-3xl max-w-2xl w-full max-h-[90vh] overflow-y-auto p-6 relative shadow-2xl space-y-6"
+        className=" pop-overlay bg-(--background) border border-(--border) rounded-3xl max-w-[80%] w-full max-h-[90vh] overflow-y-auto p-6 relative shadow-2xl space-y-6"
         onClick={(e) => e.stopPropagation()}
       >
 
@@ -26,12 +27,19 @@ function ProjectModal({ project, onClose }) {
         >
           ✕
         </button>
-        <div>
-
+        <div className="flex gap-4">
+          <div className="bg-[#eaf3e9] p-2 rounded-xl w-[60px] flex justify-center items-center">
+            <IoDesktopSharp className="w-[30px] h-[30px] text-(--primary)"/>
+          </div>
+          <div>
           <h3 className="text-2xl font-bold pr-8">
             {project.title}
           </h3>
-          <p><span className="text-(--primary)">{project.category}</span> Website Development</p>
+          <p>
+            <span className="text-(--primary)">{project.category}</span>
+            Website Development
+          </p>
+          </div>
         </div>
 
         <div className="main-content flex">
@@ -45,7 +53,9 @@ function ProjectModal({ project, onClose }) {
                   <h5 className="text-lg font-semibold">Features:</h5>
                   <ul className="list-disc list-inside space-y-1 text-(--text-muted) text-sm">
                     {project.details.features.map((feature, idx) => (
-                      <li key={idx}>{feature}</li>
+                      <li key={idx}>
+                        {feature}
+                        </li>
                     ))}
                   </ul>
                 </div>
@@ -57,7 +67,7 @@ function ProjectModal({ project, onClose }) {
           </div>
           <div>
             <div className="project-banner">
-              <img src="" alt="" />
+              <img src={project.profileImage} alt={project.title} />
             </div>
             <div className="project-statics"></div>
           </div>
