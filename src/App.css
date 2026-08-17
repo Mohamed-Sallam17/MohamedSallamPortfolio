@@ -85,7 +85,13 @@ footer .profiles a{
 }
 
 
-
+img.w-full.h-full.object-cover.object-top {
+    transition: object-position 0.5s linear;
+}
+img.w-full.h-full.object-cover.object-top:hover {
+    object-position: bottom;
+    transition-duration: 20s;
+}
 
 
 

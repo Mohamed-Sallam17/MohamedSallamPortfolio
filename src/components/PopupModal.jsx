@@ -43,7 +43,7 @@ function ProjectModal({ project, onClose }) {
         </div>
 
         <div className="main-content flex">
-          <div>
+          <div className="grow shrink-0 basis-1/2">
             <div className="about-project">
               <p>{project.description}</p>
             </div>
@@ -65,9 +65,9 @@ function ProjectModal({ project, onClose }) {
               
             </div>
           </div>
-          <div>
+          <div className="grow shrink-0 basis-1/2">
             <div className="project-banner">
-              <img src={project.profileImage} alt={project.title} />
+              <img src={project.profileImage} alt={project.title}  className="rounded-2xl"/>
             </div>
             <div className="project-statics"></div>
           </div>

@@ -13,12 +13,14 @@
         "live": "#",
         "github":"#"
     },
-    "featured": true
+    "featured": true,
+    "hidden": true
 },
 {
     "id": "proj-02",
     "title": "Marketing Agency",
     "category": "wordpress",
+    "screenshot": "/assets/imdad/fullscreenshot.webp",
     "profileImage": "/assets/imdad/hero.png",
     "image": "/assets/product-img.png",
     "imgAlt": "Ecommerce Project",
@@ -51,10 +53,11 @@
     "id": "proj-04",
     "title": "Tiseen Marketing Agency",
     "category": "wordpress",
+    "screenshot": "/assets/tiseen/fullscreenshot.webp",
     "profileImage": "/assets/tiseen/mokup.png",
     "image": "/assets/product-img.png",
     "imgAlt": "Ecommerce Project",
-    "description": "description 1",
+    "description": "Professional website designed for a modern marketing agency.",
     "tags":["wordpress","Elementor"],
     "links":{
         "live": "https://tiseen.com/"
@@ -62,12 +65,7 @@
     "details": {
         "features": ["سرعة تحميل عالية", "تحسين محركات البحث SEO", "بوابة دفع متكاملة"],
         "screenshots": [
-            "/assets/alfanaa/hero.png",
-            "/assets/alfanaa/categories.png",
-            "/assets/alfanaa/banner.png",
-            "/assets/alfanaa/Screenshot_36.png",
-            "/assets/alfanaa/gallery.png",
-            "/assets/alfanaa/newsletter.png"
+            "/assets/alfanaa/hero.png"
         ],
         "videoUrl": ""
     },
@@ -78,12 +76,13 @@
     "title": "Ecommerce Shop",
     "category": "wordpress",
     "profileImage": "/assets/alfanaa/hero.png",
+    "screenshot": "/assets/alfanaa/fullscreenshot.webp",
     "image": "/assets/product-img.png",
     "imgAlt": "Ecommerce Project",
-    "description": "description 1",
+    "description": "Modern ecommerce website for showcasing and selling products.",
     "tags":["wordpress","Elementor", "Woocommerce"],
     "links":{
-        "live": "http://imdaad.sa/"
+        "live": "https://al-fanaa.com/"
     },
     "details": {
         "features": ["سرعة تحميل عالية", "تحسين محركات البحث SEO", "بوابة دفع متكاملة"],
@@ -102,8 +101,9 @@
     "id": "proj-05",
     "title": "Children's nursery",
     "category": "wordpress",
+    "screenshot": "/assets/hapinessGate/fullscreenshot.webp",
     "profileImage": "/assets/hapinessGate/hero.png",
-    "description": "description 1",
+    "description": "Friendly and engaging website for a children's nursery.",
     "image": "/assets/product-img.png",
     "imgAlt": "Ecommerce Project",
     "tags":["wordpress","Elementor"],

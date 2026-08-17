@@ -10,12 +10,17 @@ function PortfolioTabs() {
         {"id": "react", "label": "React Apps", "icon": "⚛️"},
         {"id": "wordpress", "label": "Wordpress", "icon": "🪵"}
     ]
-    const filteredProjects = activeTab === "all" ? projectData : projectData.filter((project)=> project.category === activeTab)
+    const filteredProjects = projectData
+    .filter((project) => !project.hidden)
+    .filter(
+        (project) =>
+            activeTab === "all" || project.category === activeTab
+    );
   return (
     <>
     <div className="tabs">
         <div className="container">
-            <div className="flex justify-center items-center gap-3 mb-12">
+            <div className="flex justify-center items-center gap-3 mb-12 hidden">
                 {
                     tabs.map((tab)=>{ 
                         const isActive = activeTab === tab.id;
@@ -43,8 +48,8 @@ function PortfolioTabs() {
                             className="project-card overflow-hidden rounded-3xl bg-white"
                             key={project.id}
                             >
-                            <div className="project-image h-auto overflow-hidden">
-                                <img src={project.profileImage} alt={project.imgAlt} loading="lazy" decoding="async" className='w-full h-full object-cover'/>
+                            <div className="project-image h-[35vh] overflow-hidden">
+                                <img src={project.screenshot} alt={project.imgAlt} loading="lazy" decoding="async" className='w-full h-full object-cover object-top'/>
                             </div>
                             <div className="project-content space-y-4 p-4">
                                 <h4 className="text-2xl lg:text-3xl">{project.title}</h4>
@@ -67,7 +72,7 @@ function PortfolioTabs() {
                                             href={project.links.live}
                                             className="flex-1 text-center bg-(--background) hover:bg-(--primary) hover:text-white text-x font-semibold py-2.5 px-4 rounded-xl transition-colors"
                                             >
-                                                preview 
+                                                Visit Site 
                                             </a>
                                     )}
                                     {project.links.github && (
@@ -84,7 +89,7 @@ function PortfolioTabs() {
                                       project.details && (
                                         <button
                                             onClick={()=> setSelectProjectModal(project)}
-                                            className="flex-1 text-center bg-(--background) hover:bg-(--primary) hover:text-white text-x font-semibold py-2.5 px-4 rounded-xl transition-colors cursor-pointer"
+                                            className="hidden flex-1 text-center bg-(--background) hover:bg-(--primary) hover:text-white text-x font-semibold py-2.5 px-4 rounded-xl transition-colors cursor-pointer"
                                         >
                                             Overview 
                                         </button>
