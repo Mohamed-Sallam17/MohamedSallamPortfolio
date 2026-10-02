@@ -51,7 +51,7 @@ function Footer() {
           </a>
         </div>
       </div>
-      <div className="copyright mt-8 h-[80px] flex items-center justify-center text-white bg-(--primary)">
+      <div className="copyright mt-8 h-[80px] flex items-center justify-center text-white bg-(--primary) dark:bg-black">
         <p>@ Mohamed Sallam. All rights reserved.</p>
       </div>
     </footer>
