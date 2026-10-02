@@ -4,8 +4,8 @@
     "title": "E-Commerce App",
     "slug": "Loksy E-Commerce App",
     "category": "react",
-    "profileImage": "/assets/loksy/mokup.png",
-    "image": "/assets/loksy/mokup.png",
+    "profileImage": "/assets/projects/loksy/mokup.png",
+    "image": "/assets/projects/loksy/mokup.png",
     "imgAlt": "Ecommerce Project",
     "description": "Modern ecommerce platform with Redux Toolkit, responsive UI and payment integration",
     "tags":["React","Redux","Tailwind","AOS"],
@@ -20,11 +20,11 @@
     "id": "proj-02",
     "title": "Marketing Agency",
     "category": "wordpress",
-    "screenshot": "/assets/imdad/fullscreenshot.webp",
+    "screenshot": "/assets/projects/imdad/fullscreenshot.webp",
     "profileImage": "/assets/imdad/hero.png",
     "image": "/assets/product-img.png",
     "imgAlt": "Ecommerce Project",
-    "description": "description 1",
+    "description": "Modern WordPress website for a marketing agency.",
     "tags":["wordpress","Elementor"],
     "links":{
         "live": "http://imdaad.sa/"
@@ -32,32 +32,32 @@
     "details": {
         "features": ["سرعة تحميل عالية", "تحسين محركات البحث SEO", "بوابة دفع متكاملة"],
         "screenshots": [
-            "/assets/imdad/results.png",
-            "/assets/imdad/creative.png",
-            "/assets/imdad/know.png",
-            "/assets/imdad/vision.png",
-            "/assets/imdad/logos-sliders.png",
-            "/assets/imdad/FAQ.png",
-            "/assets/imdad/results.png",
-            "/assets/imdad/services.png",
-            "/assets/imdad/Screenshot_44.png",
-            "/assets/imdad/Screenshot_45.png",
-            "/assets/imdad/Testemonials.png",
-            "/assets/imdad/footer.png"
+            "/assets/projects/imdad/results.png",
+            "/assets/projects/imdad/creative.png",
+            "/assets/projects/imdad/know.png",
+            "/assets/projects/imdad/vision.png",
+            "/assets/projects/imdad/logos-sliders.png",
+            "/assets/projects/imdad/FAQ.png",
+            "/assets/projects/imdad/results.png",
+            "/assets/projects/imdad/services.png",
+            "/assets/projects/imdad/Screenshot_44.png",
+            "/assets/projects/imdad/Screenshot_45.png",
+            "/assets/projects/imdad/Testemonials.png",
+            "/assets/projects/imdad/footer.png"
         ],
         "videoUrl": ""
     },
     "featured": true
 },
 {
-    "id": "proj-04",
+    "id": "proj-03",
     "title": "Tiseen Marketing Agency",
     "category": "wordpress",
-    "screenshot": "/assets/tiseen/fullscreenshot.webp",
-    "profileImage": "/assets/tiseen/mokup.png",
+    "screenshot": "/assets/projects/tiseen/fullscreenshot.webp",
+    "profileImage": "/assets/projects/tiseen/mokup.png",
     "image": "/assets/product-img.png",
     "imgAlt": "Ecommerce Project",
-    "description": "Professional website designed for a modern marketing agency.",
+    "description": "Professional WordPress website for a marketing agency.",
     "tags":["wordpress","Elementor"],
     "links":{
         "live": "https://tiseen.com/"
@@ -72,11 +72,11 @@
     "featured": true
 },
 {
-    "id": "proj-03",
+    "id": "proj-04",
     "title": "Ecommerce Shop",
     "category": "wordpress",
-    "profileImage": "/assets/alfanaa/hero.png",
-    "screenshot": "/assets/alfanaa/fullscreenshot.webp",
+    "profileImage": "/assets/projects/alfanaa/hero.png",
+    "screenshot": "/assets/projects/alfanaa/fullscreenshot.webp",
     "image": "/assets/product-img.png",
     "imgAlt": "Ecommerce Project",
     "description": "Modern ecommerce website for showcasing and selling products.",
@@ -87,11 +87,11 @@
     "details": {
         "features": ["سرعة تحميل عالية", "تحسين محركات البحث SEO", "بوابة دفع متكاملة"],
         "screenshots": [
-            "/assets/alfanaa/banner.png",
-            "/assets/alfanaa/categories.png",
-            "/assets/alfanaa/gallery.png",
-            "/assets/alfanaa/newsletter.png",
-            "/assets/alfanaa/Screenshot_36.png"
+            "/assets/projects/alfanaa/banner.png",
+            "/assets/projects/alfanaa/categories.png",
+            "/assets/projects/alfanaa/gallery.png",
+            "/assets/projects/alfanaa/newsletter.png",
+            "/assets/projects/alfanaa/Screenshot_36.png"
         ],
         "videoUrl": ""
     },
@@ -101,8 +101,8 @@
     "id": "proj-05",
     "title": "Children's nursery",
     "category": "wordpress",
-    "screenshot": "/assets/hapinessGate/fullscreenshot.webp",
-    "profileImage": "/assets/hapinessGate/hero.png",
+    "screenshot": "/assets/projects/hapinessGate/fullscreenshot.webp",
+    "profileImage": "/assets/projects/hapinessGate/hero.png",
     "description": "Friendly and engaging website for a children's nursery.",
     "image": "/assets/product-img.png",
     "imgAlt": "Ecommerce Project",
@@ -113,13 +113,158 @@
     "details": {
         "features": ["سرعة تحميل عالية", "تحسين محركات البحث SEO", "بوابة دفع متكاملة"],
         "screenshots": [
-            "/assets/hapinessGate/hero.png",
-            "/assets/hapinessGate/about-us.png",
-            "/assets/hapinessGate/practice.png",
-            "/assets/hapinessGate/programes.png",
-            "/assets/hapinessGate/weekly.png",
-            "/assets/hapinessGate/testemonials.png",
-            "/assets/hapinessGate/Address.png"
+            "/assets/projects/hapinessGate/hero.png",
+            "/assets/projects/hapinessGate/about-us.png",
+            "/assets/projects/hapinessGate/practice.png",
+            "/assets/projects/hapinessGate/programes.png",
+            "/assets/projects/hapinessGate/weekly.png",
+            "/assets/projects/hapinessGate/testemonials.png",
+            "/assets/projects/hapinessGate/Address.png"
+
+        ],
+        "videoUrl": ""
+    },
+    "featured": true
+},
+{
+    "id": "proj-06",
+    "title": "Ecommerce Sdr",
+    "category": "wordpress",
+    "screenshot": "/assets/projects/sdrKhaled/fullscreenshot.png",
+    "profileImage": "/assets/projects/sdrKhaled/hero.png",
+    "description": "Sidr e-commerce website with a Saudi-inspired identity.",
+    "image": "/assets/product-img.png",
+    "imgAlt": "Ecommerce Project",
+    "tags":["wordpress","Elementor"],
+    "links":{
+        "live": "https://kh-sdr.com/"
+    },
+    "details": {
+        "features": ["سرعة تحميل عالية", "تحسين محركات البحث SEO", "بوابة دفع متكاملة"],
+        "screenshots": [
+            "/assets/projects/sdrKhaled/hero.png",
+            "/assets/projects/sdrKhaled/about-us.png",
+            "/assets/projects/sdrKhaled/practice.png",
+            "/assets/projects/sdrKhaled/programes.png",
+            "/assets/projects/sdrKhaled/weekly.png",
+            "/assets/projects/sdrKhaled/testemonials.png",
+            "/assets/projects/sdrKhaled/Address.png"
+
+        ],
+        "videoUrl": ""
+    },
+    "featured": true
+},
+{
+    "id": "proj-07",
+    "title": "Construction & Logistics",
+    "category": "wordpress",
+    "screenshot": "/assets/projects/ahazko/fullscreenshot.png",
+    "profileImage": "/assets/projects/ahazko/hero.png",
+    "description": "Integrated corporate services website for global markets.",
+    "image": "/assets/product-img.png",
+    "imgAlt": "Ecommerce Project",
+    "tags":["wordpress","Elementor"],
+    "links":{
+        "live": "https://ahazko.com/"
+    },
+    "details": {
+        "features": ["سرعة تحميل عالية", "تحسين محركات البحث SEO", "بوابة دفع متكاملة"],
+        "screenshots": [
+            "/assets/projects/ahazko/hero.png",
+            "/assets/projects/ahazko/about-us.png",
+            "/assets/projects/ahazko/practice.png",
+            "/assets/projects/ahazko/programes.png",
+            "/assets/projects/ahazko/weekly.png",
+            "/assets/projects/ahazko/testemonials.png",
+            "/assets/projects/ahazko/Address.png"
+
+        ],
+        "videoUrl": ""
+    },
+    "featured": true
+},
+{
+    "id": "proj-08",
+    "title": "Engineering Contracting",
+    "category": "wordpress",
+    "screenshot": "/assets/projects/rawaa/fullscreenshot.png",
+    "profileImage": "/assets/projects/rawaa/hero.png",
+    "description": "Professional WordPress website for engineering and construction services.",
+    "image": "/assets/product-img.png",
+    "imgAlt": "Ecommerce Project",
+    "tags":["wordpress","Elementor"],
+    "links":{
+        "live": "https://rawataltasmem.sa/"
+    },
+    "details": {
+        "features": ["سرعة تحميل عالية", "تحسين محركات البحث SEO", "بوابة دفع متكاملة"],
+        "screenshots": [
+            "/assets/projects/rawaa/hero.png",
+            "/assets/projects/rawaa/about-us.png",
+            "/assets/projects/rawaa/practice.png",
+            "/assets/projects/rawaa/programes.png",
+            "/assets/projects/rawaa/weekly.png",
+            "/assets/projects/rawaa/testemonials.png",
+            "/assets/projects/rawaa/Address.png"
+
+        ],
+        "videoUrl": ""
+    },
+    "featured": true
+},
+{
+    "id": "proj-09",
+    "title": "Restaurant",
+    "category": "wordpress",
+    "screenshot": "/assets/projects/flamingo/fullscreenshot.png",
+    "profileImage": "/assets/projects/flamingo/hero.png",
+    "description": "Modern website for a Saudi grilled food restaurant.",
+    "image": "/assets/product-img.png",
+    "imgAlt": "Ecommerce Project",
+    "tags":["wordpress","Elementor"],
+    "links":{
+        "live": "https://flamingo-sa.com/"
+    },
+    "details": {
+        "features": ["سرعة تحميل عالية", "تحسين محركات البحث SEO", "بوابة دفع متكاملة"],
+        "screenshots": [
+            "/assets/projects/flamingo/hero.png",
+            "/assets/projects/flamingo/about-us.png",
+            "/assets/projects/flamingo/practice.png",
+            "/assets/projects/flamingo/programes.png",
+            "/assets/projects/flamingo/weekly.png",
+            "/assets/projects/flamingo/testemonials.png",
+            "/assets/projects/flamingo/Address.png"
+
+        ],
+        "videoUrl": ""
+    },
+    "featured": true
+},
+{
+    "id": "proj-10",
+    "title": "Ecommerce Shop",
+    "category": "wordpress",
+    "screenshot": "/assets/projects/mahmosah/fullscreenshot.png",
+    "profileImage": "/assets/projects/mahmosah/hero.png",
+    "description": "Salla e-commerce store for traditional roasted dairy and grain products.",
+    "image": "/assets/product-img.png",
+    "imgAlt": "Ecommerce Project",
+    "tags":["wordpress","Elementor"],
+    "links":{
+        "live": "https://mahmosah.com/"
+    },
+    "details": {
+        "features": ["سرعة تحميل عالية", "تحسين محركات البحث SEO", "بوابة دفع متكاملة"],
+        "screenshots": [
+            "/assets/projects/mahmosah/hero.png",
+            "/assets/projects/mahmosah/about-us.png",
+            "/assets/projects/mahmosah/practice.png",
+            "/assets/projects/mahmosah/programes.png",
+            "/assets/projects/mahmosah/weekly.png",
+            "/assets/projects/mahmosah/testemonials.png",
+            "/assets/projects/mahmosah/Address.png"
 
         ],
         "videoUrl": ""

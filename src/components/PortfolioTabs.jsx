@@ -70,6 +70,7 @@ function PortfolioTabs() {
                                     {project.links.live && (
                                             <a
                                             href={project.links.live}
+                                            target="_blank"
                                             className="flex-1 text-center bg-(--background) hover:bg-(--primary) hover:text-white text-x font-semibold py-2.5 px-4 rounded-xl transition-colors"
                                             >
                                                 Visit Site 
