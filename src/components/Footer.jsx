@@ -17,32 +17,16 @@ function Footer() {
             Feel free to reach out. I'd love to hear from you 
           </p>
         </div>
-        <div className="contacts-menu mt-4">
-          <ul className="flex items-center justify-center flex-wrap gap-4">
-            <li className="w-max border-2 border-(--border) hover:border-(--primary) bg-white hover:bg-(--primary) hover:text-(--background) p-4 rounded-2xl"> 
-              <a href="mailto:m.sallam1920@gmail.com" className="flex items-center justify-center gap-2">
-                <IoMdMail />
-                <span>m.sallam1920@gmail.com</span>
-              </a>
-            </li>
-            <li className="w-max border-2 border-(--border) bg-white hover:border-(--primary) hover:bg-(--primary) hover:text-(--background) p-4 rounded-2xl">
-              <a href="tel:+201006830249" className="flex items-center justify-center gap-2"> 
-                <FaPhoneAlt />
-                <span>+20 100 683 0249</span>
-              </a>
-            </li>
-            <li className="w-max border-2 border-(--border) bg-white hover:border-(--primary) hover:bg-(--primary) hover:text-(--background) p-4 rounded-2xl">
-              <a href="#" className="flex items-center justify-center gap-2">
-                <FaLocationDot />
-                <span>Egypt</span>
-              </a>
-            </li>
-          </ul>
-        </div>
         <div className="profiles flex items-center justify-center flex-wrap gap-4 mt-8">
-          <a href="https://github.com/Mohamed-Sallam17" target="_blanck" className="w-max border-2 border-(--border) bg-white hover:border-(--primary) hover:bg-(--primary) hover:text-(--background) p-4 rounded-2xl">
-            <FaGithub className="text-2xl"/>
+          <a href="mailto:m.sallam1920@gmail.com" target="_blanck" className="w-max border-2 border-(--border) bg-white hover:border-(--primary) hover:bg-(--primary) hover:text-(--background) p-4 rounded-2xl">
+            <IoMdMail className="text-2xl"/>
           </a>
+          <a href="tel:+201006830249" target="_blanck" className="w-max border-2 border-(--border) bg-white hover:border-(--primary) hover:bg-(--primary) hover:text-(--background) p-4 rounded-2xl">
+            <FaPhoneAlt className="text-2xl"/>
+          </a>
+          {/* <a href="https://github.com/Mohamed-Sallam17" target="_blanck" className="w-max border-2 border-(--border) bg-white hover:border-(--primary) hover:bg-(--primary) hover:text-(--background) p-4 rounded-2xl">
+            <FaGithub className="text-2xl"/>
+          </a> */}
           <a href="https://wa.me/+201006830249" target="_blanck" className="w-max border-2 border-(--border) bg-white hover:border-(--primary) hover:bg-(--primary) hover:text-(--background) p-4 rounded-2xl">
             <IoLogoWhatsapp className="text-2xl"/>
           </a>

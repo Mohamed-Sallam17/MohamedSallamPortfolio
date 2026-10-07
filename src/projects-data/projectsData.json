@@ -25,7 +25,7 @@
     "image": "/assets/product-img.png",
     "imgAlt": "Ecommerce Project",
     "description": "Modern WordPress website for a marketing agency.",
-    "tags":["wordpress","Elementor"],
+    "tags":["WordPress","Elementor", "CSS", "JS"],
     "links":{
         "live": "http://imdaad.sa/"
     },
@@ -58,7 +58,7 @@
     "image": "/assets/product-img.png",
     "imgAlt": "Ecommerce Project",
     "description": "Professional WordPress website for a marketing agency.",
-    "tags":["wordpress","Elementor"],
+    "tags":["WordPress","Elementor", "CSS", "JS"],
     "links":{
         "live": "https://tiseen.com/"
     },
@@ -73,61 +73,6 @@
 },
 {
     "id": "proj-04",
-    "title": "Ecommerce Shop",
-    "category": "wordpress",
-    "profileImage": "/assets/projects/alfanaa/hero.png",
-    "screenshot": "/assets/projects/alfanaa/fullscreenshot.webp",
-    "image": "/assets/product-img.png",
-    "imgAlt": "Ecommerce Project",
-    "description": "Modern ecommerce website for showcasing and selling products.",
-    "tags":["wordpress","Elementor", "Woocommerce"],
-    "links":{
-        "live": "https://al-fanaa.com/"
-    },
-    "details": {
-        "features": ["سرعة تحميل عالية", "تحسين محركات البحث SEO", "بوابة دفع متكاملة"],
-        "screenshots": [
-            "/assets/projects/alfanaa/banner.png",
-            "/assets/projects/alfanaa/categories.png",
-            "/assets/projects/alfanaa/gallery.png",
-            "/assets/projects/alfanaa/newsletter.png",
-            "/assets/projects/alfanaa/Screenshot_36.png"
-        ],
-        "videoUrl": ""
-    },
-    "featured": true
-},
-{
-    "id": "proj-05",
-    "title": "Children's nursery",
-    "category": "wordpress",
-    "screenshot": "/assets/projects/hapinessGate/fullscreenshot.webp",
-    "profileImage": "/assets/projects/hapinessGate/hero.png",
-    "description": "Friendly and engaging website for a children's nursery.",
-    "image": "/assets/product-img.png",
-    "imgAlt": "Ecommerce Project",
-    "tags":["wordpress","Elementor"],
-    "links":{
-        "live": "https://happinessgate22.com/"
-    },
-    "details": {
-        "features": ["سرعة تحميل عالية", "تحسين محركات البحث SEO", "بوابة دفع متكاملة"],
-        "screenshots": [
-            "/assets/projects/hapinessGate/hero.png",
-            "/assets/projects/hapinessGate/about-us.png",
-            "/assets/projects/hapinessGate/practice.png",
-            "/assets/projects/hapinessGate/programes.png",
-            "/assets/projects/hapinessGate/weekly.png",
-            "/assets/projects/hapinessGate/testemonials.png",
-            "/assets/projects/hapinessGate/Address.png"
-
-        ],
-        "videoUrl": ""
-    },
-    "featured": true
-},
-{
-    "id": "proj-06",
     "title": "Ecommerce Sdr",
     "category": "wordpress",
     "screenshot": "/assets/projects/sdrKhaled/fullscreenshot.png",
@@ -135,7 +80,7 @@
     "description": "Sidr e-commerce website with a Saudi-inspired identity.",
     "image": "/assets/product-img.png",
     "imgAlt": "Ecommerce Project",
-    "tags":["wordpress","Elementor"],
+    "tags":["WordPress","Elementor"],
     "links":{
         "live": "https://kh-sdr.com/"
     },
@@ -156,36 +101,7 @@
     "featured": true
 },
 {
-    "id": "proj-07",
-    "title": "Construction & Logistics",
-    "category": "wordpress",
-    "screenshot": "/assets/projects/ahazko/fullscreenshot.png",
-    "profileImage": "/assets/projects/ahazko/hero.png",
-    "description": "Integrated corporate services website for global markets.",
-    "image": "/assets/product-img.png",
-    "imgAlt": "Ecommerce Project",
-    "tags":["wordpress","Elementor"],
-    "links":{
-        "live": "https://ahazko.com/"
-    },
-    "details": {
-        "features": ["سرعة تحميل عالية", "تحسين محركات البحث SEO", "بوابة دفع متكاملة"],
-        "screenshots": [
-            "/assets/projects/ahazko/hero.png",
-            "/assets/projects/ahazko/about-us.png",
-            "/assets/projects/ahazko/practice.png",
-            "/assets/projects/ahazko/programes.png",
-            "/assets/projects/ahazko/weekly.png",
-            "/assets/projects/ahazko/testemonials.png",
-            "/assets/projects/ahazko/Address.png"
-
-        ],
-        "videoUrl": ""
-    },
-    "featured": true
-},
-{
-    "id": "proj-08",
+    "id": "proj-05",
     "title": "Engineering Contracting",
     "category": "wordpress",
     "screenshot": "/assets/projects/rawaa/fullscreenshot.png",
@@ -193,7 +109,7 @@
     "description": "Professional WordPress website for engineering and construction services.",
     "image": "/assets/product-img.png",
     "imgAlt": "Ecommerce Project",
-    "tags":["wordpress","Elementor"],
+    "tags":["WordPress","Elementor","ACF","PolyLang"],
     "links":{
         "live": "https://rawataltasmem.sa/"
     },
@@ -214,7 +130,36 @@
     "featured": true
 },
 {
-    "id": "proj-09",
+    "id": "proj-06",
+    "title": "Construction & Logistics",
+    "category": "wordpress",
+    "screenshot": "/assets/projects/ahazko/fullscreenshot.png",
+    "profileImage": "/assets/projects/ahazko/hero.png",
+    "description": "Integrated corporate services website for global markets.",
+    "image": "/assets/product-img.png",
+    "imgAlt": "Ecommerce Project",
+    "tags":["WordPress","Elementor"],
+    "links":{
+        "live": "https://ahazko.com/"
+    },
+    "details": {
+        "features": ["سرعة تحميل عالية", "تحسين محركات البحث SEO", "بوابة دفع متكاملة"],
+        "screenshots": [
+            "/assets/projects/ahazko/hero.png",
+            "/assets/projects/ahazko/about-us.png",
+            "/assets/projects/ahazko/practice.png",
+            "/assets/projects/ahazko/programes.png",
+            "/assets/projects/ahazko/weekly.png",
+            "/assets/projects/ahazko/testemonials.png",
+            "/assets/projects/ahazko/Address.png"
+
+        ],
+        "videoUrl": ""
+    },
+    "featured": true
+},
+{
+    "id": "proj-07",
     "title": "Restaurant",
     "category": "wordpress",
     "screenshot": "/assets/projects/flamingo/fullscreenshot.png",
@@ -222,7 +167,7 @@
     "description": "Modern website for a Saudi grilled food restaurant.",
     "image": "/assets/product-img.png",
     "imgAlt": "Ecommerce Project",
-    "tags":["wordpress","Elementor"],
+    "tags":["WordPress","Elementor","CSS","JS"],
     "links":{
         "live": "https://flamingo-sa.com/"
     },
@@ -243,7 +188,7 @@
     "featured": true
 },
 {
-    "id": "proj-10",
+    "id": "proj-8",
     "title": "Ecommerce Shop",
     "category": "wordpress",
     "screenshot": "/assets/projects/mahmosah/fullscreenshot.png",
@@ -251,7 +196,7 @@
     "description": "Salla e-commerce store for traditional roasted dairy and grain products.",
     "image": "/assets/product-img.png",
     "imgAlt": "Ecommerce Project",
-    "tags":["wordpress","Elementor"],
+    "tags":["Salla","CSS","JS"],
     "links":{
         "live": "https://mahmosah.com/"
     },
@@ -266,6 +211,61 @@
             "/assets/projects/mahmosah/testemonials.png",
             "/assets/projects/mahmosah/Address.png"
 
+        ],
+        "videoUrl": ""
+    },
+    "featured": true
+},
+{
+    "id": "proj-09",
+    "title": "Children's nursery",
+    "category": "wordpress",
+    "screenshot": "/assets/projects/hapinessGate/fullscreenshot.webp",
+    "profileImage": "/assets/projects/hapinessGate/hero.png",
+    "description": "Friendly and engaging website for a children's nursery.",
+    "image": "/assets/product-img.png",
+    "imgAlt": "Ecommerce Project",
+    "tags":["WordPress","Elementor"],
+    "links":{
+        "live": "https://happinessgate22.com/"
+    },
+    "details": {
+        "features": ["سرعة تحميل عالية", "تحسين محركات البحث SEO", "بوابة دفع متكاملة"],
+        "screenshots": [
+            "/assets/projects/hapinessGate/hero.png",
+            "/assets/projects/hapinessGate/about-us.png",
+            "/assets/projects/hapinessGate/practice.png",
+            "/assets/projects/hapinessGate/programes.png",
+            "/assets/projects/hapinessGate/weekly.png",
+            "/assets/projects/hapinessGate/testemonials.png",
+            "/assets/projects/hapinessGate/Address.png"
+
+        ],
+        "videoUrl": ""
+    },
+    "featured": true
+},
+{
+    "id": "proj-10",
+    "title": "Ecommerce Shop",
+    "category": "wordpress",
+    "profileImage": "/assets/projects/alfanaa/hero.png",
+    "screenshot": "/assets/projects/alfanaa/fullscreenshot.webp",
+    "image": "/assets/product-img.png",
+    "imgAlt": "Ecommerce Project",
+    "description": "Modern ecommerce website for showcasing and selling products.",
+    "tags":["WordPress","Elementor", "Woocommerce"],
+    "links":{
+        "live": "https://al-fanaa.com/"
+    },
+    "details": {
+        "features": ["سرعة تحميل عالية", "تحسين محركات البحث SEO", "بوابة دفع متكاملة"],
+        "screenshots": [
+            "/assets/projects/alfanaa/banner.png",
+            "/assets/projects/alfanaa/categories.png",
+            "/assets/projects/alfanaa/gallery.png",
+            "/assets/projects/alfanaa/newsletter.png",
+            "/assets/projects/alfanaa/Screenshot_36.png"
         ],
         "videoUrl": ""
     },

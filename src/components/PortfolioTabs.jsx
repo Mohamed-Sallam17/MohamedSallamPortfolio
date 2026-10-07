@@ -45,7 +45,7 @@ function PortfolioTabs() {
                 {
                     filteredProjects.map((project)=>(
                         <div
-                            className="project-card overflow-hidden rounded-3xl bg-white"
+                            className="project-card overflow-hidden rounded-3xl bg-white shadow-[0_0_10px_0_rgba(0,0,0,0.1)]"
                             key={project.id}
                             >
                             <div className="project-image h-[35vh] overflow-hidden">

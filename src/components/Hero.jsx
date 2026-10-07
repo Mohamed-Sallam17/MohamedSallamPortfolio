@@ -20,7 +20,7 @@ function Hero() {
               <FaArrowRight />
               View My Work
             </a>
-              <a href="/Mohamed Sallam - Frontend Developer - CV.pdf" download="Mohamed Sallam - Frontend Developer - CV.pdf" className='py-4 px-4 md:text-xl text-sm bg-white rounded-xl border border-(--border) flex items-center gap-2 cursor-pointer' target='_blanck'>              
+              <a href="/Mohamed Sallam-Frontend Developer-CV.pdf" download="Mohamed Sallam-Frontend Developer-CV.pdf" className='py-4 px-4 md:text-xl text-sm bg-white rounded-xl border border-(--border) flex items-center gap-2 cursor-pointer' target='_blanck'>              
                 <GrDownload  className='text-(--primary)'/>
                 Download CV
               </a>
