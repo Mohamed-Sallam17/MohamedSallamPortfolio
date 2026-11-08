@@ -247,14 +247,14 @@
 },
 {
     "id": "proj-10",
-    "title": "Ecommerce Shop",
+    "title": "Ishraq Family Consultations",
     "category": "wordpress",
-    "profileImage": "/assets/projects/alfanaa/hero.png",
-    "screenshot": "/assets/projects/alfanaa/fullscreenshot.webp",
+    "profileImage": "/assets/projects/ishraq/hero.png",
+    "screenshot": "/assets/projects/ishraq/fullscreenshot.webp",
     "image": "/assets/product-img.png",
     "imgAlt": "Ecommerce Project",
-    "description": "Modern ecommerce website for showcasing and selling products.",
-    "tags":["WordPress","Elementor", "Woocommerce"],
+    "description": "Professional consultancy platform for family guidance and counseling services.",
+    "tags":["WordPress","Elementor"],
     "links":{
         "live": "https://al-fanaa.com/"
     },
