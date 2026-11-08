@@ -1,0 +1,51 @@
+ 
+:root {
+  --background: #F8F7F4;    /* Background */
+  --primary: #22C55E;      /* Main Green */
+  --primary-hover: #16A34A;
+  --secondary: #14B8A6;    /* Teal Accent */
+  --text: #1F2937;         /* Main Text */
+  --text-muted: #6B7280;
+  --border: #E5E7EB;
+  --surface-hover: #18181B;
+} 
+
+
+:root{
+  --bg-color: #041c32;
+  --heading-color: #EEEEEE;
+  --btn-color: #064663;
+  --second-color: #0b6cc5;
+  --desc-color: #ffffff9e;
+  --second-bg: #06466380;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poetsen One", sans-serif;
+  background-color: var(--background);
+  color: var(--text);
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.container{
+  margin-inline: auto;
+  padding: 1rem;
+}
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 20px;
+}
