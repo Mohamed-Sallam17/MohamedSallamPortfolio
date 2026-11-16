@@ -1,6 +1,22 @@
 [
 {
     "id": "proj-01",
+    "title": "Wameed Marketing Agency",
+    "slug": "Marketing Agency",
+    "category": "wordpress",
+    "screenshot": "/assets/projects/wameed/fullscreenshot.webp",
+    "profileImage": "/assets/projects/wameed/hero.webp",
+    "image": "/assets/projects/wameed/mokup.png",
+    "imgAlt": "Marketing Agency",
+    "description": "Modern WordPress website for a digital marketing agency, built with custom React components and GSAP animations.",
+    "tags":["React","GSAP","JS","CSS","Wordpress"],
+    "links":{
+        "live": "https://wameedagency.sa/"
+    },
+    "featured": true
+},
+{
+    "id": "proj-02",
     "title": "E-Commerce App",
     "slug": "Loksy E-Commerce App",
     "category": "react",
@@ -17,13 +33,13 @@
     "hidden": true
 },
 {
-    "id": "proj-02",
+    "id": "proj-03",
     "title": "Marketing Agency",
     "category": "wordpress",
     "screenshot": "/assets/projects/imdad/fullscreenshot.webp",
     "profileImage": "/assets/imdad/hero.png",
     "image": "/assets/product-img.png",
-    "imgAlt": "Ecommerce Project",
+    "imgAlt": "Marketing Agency",
     "description": "Modern WordPress website for a marketing agency.",
     "tags":["WordPress","Elementor", "CSS", "JS"],
     "links":{
@@ -50,7 +66,7 @@
     "featured": true
 },
 {
-    "id": "proj-03",
+    "id": "proj-04",
     "title": "Tiseen Marketing Agency",
     "category": "wordpress",
     "screenshot": "/assets/projects/tiseen/fullscreenshot.webp",
@@ -72,7 +88,7 @@
     "featured": true
 },
 {
-    "id": "proj-04",
+    "id": "proj-05",
     "title": "Ecommerce Sdr",
     "category": "wordpress",
     "screenshot": "/assets/projects/sdrKhaled/fullscreenshot.png",
@@ -101,7 +117,7 @@
     "featured": true
 },
 {
-    "id": "proj-05",
+    "id": "proj-06",
     "title": "Engineering Contracting",
     "category": "wordpress",
     "screenshot": "/assets/projects/rawaa/fullscreenshot.png",
@@ -130,7 +146,7 @@
     "featured": true
 },
 {
-    "id": "proj-06",
+    "id": "proj-07",
     "title": "Construction & Logistics",
     "category": "wordpress",
     "screenshot": "/assets/projects/ahazko/fullscreenshot.png",
@@ -159,7 +175,7 @@
     "featured": true
 },
 {
-    "id": "proj-07",
+    "id": "proj-08",
     "title": "Restaurant",
     "category": "wordpress",
     "screenshot": "/assets/projects/flamingo/fullscreenshot.png",
@@ -188,7 +204,7 @@
     "featured": true
 },
 {
-    "id": "proj-8",
+    "id": "proj-9",
     "title": "Ecommerce Shop",
     "category": "wordpress",
     "screenshot": "/assets/projects/mahmosah/fullscreenshot.png",
@@ -217,7 +233,7 @@
     "featured": true
 },
 {
-    "id": "proj-09",
+    "id": "proj-10",
     "title": "Children's nursery",
     "category": "wordpress",
     "screenshot": "/assets/projects/hapinessGate/fullscreenshot.webp",
@@ -246,7 +262,7 @@
     "featured": true
 },
 {
-    "id": "proj-10",
+    "id": "proj-11",
     "title": "Ishraq Family Consultations",
     "category": "wordpress",
     "profileImage": "/assets/projects/ishraq/hero.png",
